@@ -18,8 +18,8 @@ $HOME/Repos/dotfiles
 If that path does not exist, check these fallbacks before editing live config:
 
 ```text
-/Users/yakovlev-alex/Repos/dotfiles
-/home/yakovlev-alex/Repos/dotfiles
+~/Repos/dotfiles
+~/Repos/dotfiles
 ```
 
 ## What Counts As Global Agent Configuration
