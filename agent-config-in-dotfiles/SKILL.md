@@ -1,6 +1,6 @@
 ---
 name: agent-config-in-dotfiles
-description: Use whenever changing agent configuration, including MCP servers, skills, plugins, AGENTS.md, agent instructions, Codex/Cursor/OpenCode/Claude settings, approval rules, or any live files under ~/.agents, ~/.codex, ~/.cursor, ~/.config/opencode, or similar agent config directories.
+description: Use only when changing global or live agent configuration managed by the dotfiles repo, including MCP servers, skills, plugins, global AGENTS.md/instructions, Codex/Cursor/OpenCode/Claude settings, approval rules, or files under ~/.agents, ~/.codex, ~/.cursor, ~/.config/opencode, or similar agent config directories. Do not use for ordinary project-local AGENTS.md files unless the user is changing this dotfiles-managed instruction layer.
 ---
 
 # Agent Config In Dotfiles
@@ -22,14 +22,15 @@ If that path does not exist, check these fallbacks before editing live config:
 /home/yakovlev-alex/Repos/dotfiles
 ```
 
-## What Counts As Agent Configuration
+## What Counts As Global Agent Configuration
 
 Use this skill for changes to:
 
 - MCP servers, MCP auth wiring, generated `mcp.json`, or Codex `mcp_servers`.
 - Skills, external skill registries, local skill folders, skill projections, or skill installation scripts.
 - Plugins, local plugin marketplaces, plugin manifests, or plugin installation scripts.
-- `AGENTS.md`, instruction files, global agent rules, prompt/instruction layers.
+- Dotfiles-managed or live global `AGENTS.md` files, instruction files, global agent rules, and prompt/instruction layers.
+- Do not use this skill for ordinary project-local `AGENTS.md` creation or edits unless the project is this dotfiles repo or the user explicitly wants to change global agent behavior.
 - Codex, Cursor, OpenCode, Claude, or similar agent client config.
 - Approval rules, sandbox rules, automation config, or agent tool/runtime settings.
 
