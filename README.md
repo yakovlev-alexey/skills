@@ -3,17 +3,11 @@
 Public agent skills for Codex, Claude Code, Cursor, and other tools that support
 the `SKILL.md` skill format.
 
-This repository is also mounted by my dotfiles as the `ai/skills` submodule. The
-dotfiles repository keeps machine-specific install policy in `ai/skills.json` and
-runs `./scripts/install-skills` during setup: [yakovlev-alexey/dotfiles](https://github.com/yakovlev-alexey/dotfiles).
+My dotfiles install these public skills from the remote repository through
+`ai/skills.json`: [yakovlev-alexey/dotfiles](https://github.com/yakovlev-alexey/dotfiles).
+Dotfiles-specific skills live in the dotfiles repository instead.
 
 ## Skills
-
-### Agent Configuration
-
-| Skill | Use when |
-| --- | --- |
-| [`agent-config-in-dotfiles`](agent-config-in-dotfiles/SKILL.md) | Changing MCP servers, skills, plugins, AGENTS.md, Codex/Cursor/OpenCode/Claude settings, approval rules, or generated agent config through dotfiles. |
 
 ### Agentlytics
 
@@ -50,33 +44,33 @@ runs `./scripts/install-skills` during setup: [yakovlev-alexey/dotfiles](https:/
 The easiest path is the [`skills`](https://skills.sh/) CLI:
 
 ```bash
-npx skills add yakovlev-alexey/skills --all
+pnpx skills add yakovlev-alexey/skills --all
 ```
 
 Install for one agent:
 
 ```bash
-npx skills add yakovlev-alexey/skills --agent codex -y
-npx skills add yakovlev-alexey/skills --agent claude-code -y
-npx skills add yakovlev-alexey/skills --agent cursor -y
+pnpx skills add yakovlev-alexey/skills --agent codex -y
+pnpx skills add yakovlev-alexey/skills --agent claude-code -y
+pnpx skills add yakovlev-alexey/skills --agent cursor -y
 ```
 
 Install selected skills only:
 
 ```bash
-npx skills add yakovlev-alexey/skills --agent codex --skill web-app-design backend-slice-architecture -y
+pnpx skills add yakovlev-alexey/skills --agent codex --skill web-app-design backend-slice-architecture -y
 ```
 
 List available skills before installing:
 
 ```bash
-npx skills add yakovlev-alexey/skills --list
+pnpx skills add yakovlev-alexey/skills --list
 ```
 
 Update installed skills later:
 
 ```bash
-npx skills update
+pnpx skills update
 ```
 
 ## Manual Install
