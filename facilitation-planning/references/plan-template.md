@@ -6,13 +6,14 @@ Output contract for Phase 3. Fill every REQUIRED section. Scale depth to session
 
 Produce the plan in this order:
 
-1. Session goal and key outcomes
+1. Session goal and key outcomes (incl. decision authority, acceptance criteria, confidentiality when relevant)
 2. Agenda table
 3. Per-block detail (one subsection per block)
-4. Preparation
-5. Hybrid / online parity (REQUIRED when mode is hybrid or online)
-6. Session artifacts (REQUIRED)
-7. Post-session process (REQUIRED)
+4. **Cut list** (REQUIRED — if running long, cut X / protect Y)
+5. Preparation
+6. Hybrid / online parity (REQUIRED when mode is hybrid or online)
+7. Session artifacts (REQUIRED — incl. confidentiality/recording from intake)
+8. Post-session process (REQUIRED)
 
 Write plan prose in the user's request language. Keep practice names and source links in English from `catalogue.md`.
 
@@ -24,10 +25,16 @@ Write plan prose in the user's request language. Keep practice names and source 
 ## Goal
 [One sentence: what this session must achieve]
 
+## Decision authority (when relevant)
+[Sponsor/decision owner; decision rule; will this stick or can it be overridden? If input-gathering only, say so.]
+
 ## Key outcomes
 - [Observable outcome 1]
 - [Observable outcome 2]
 - [Artifact or decision the group leaves with]
+
+## Acceptance criteria
+[What "done" looks like; fallback if no agreement emerges]
 ```
 
 ---
@@ -42,9 +49,13 @@ Write plan prose in the user's request language. Keep practice names and source 
 ```
 
 Rules:
+- Times use clock minutes (`h:mm`), not decimals — no base-60 overflow (e.g. no `0:55-0:68`).
 - Times must sum to the stated time budget.
-- Every Format cell names a catalogue practice with its source link.
-- Last block must produce actions, decisions, or agreed next steps.
+- Framing/admin/transition/break/decision-rule blocks may be labeled "plain facilitation structure" without a catalogue link.
+- Branded practice Format cells name a catalogue practice with its source link.
+- Mandatory break every ~60-75 min in-person, ~45-60 min online.
+- Last block must produce actions, decisions, or agreed next steps (except conflict/repair arcs — relationship agreement, not action list).
+- Every converge/vote block sets decision/prioritization criteria **before** voting.
 
 ---
 
@@ -76,6 +87,8 @@ Repeat for each agenda row:
 | 1 | X min | ... |
 | 2 | X min | ... |
 
+Step times must sum to **≤ ~85%** of the block duration; reserve ~2-3 min for instructions and transitions.
+
 **Block output:** [What is captured and where]
 ```
 
@@ -86,7 +99,21 @@ Scale per-block detail:
 
 ---
 
-## 4. Preparation
+## 4. Cut list (REQUIRED)
+
+```markdown
+## Cut list
+
+If running long:
+- **Cut:** [blocks or steps to shorten or drop]
+- **Protect:** [non-negotiable blocks — usually safety, decision, and close]
+```
+
+Every plan needs an explicit contingency. Facilitators should not invent cuts in the room.
+
+---
+
+## 5. Preparation
 
 ```markdown
 ## Preparation
@@ -102,7 +129,7 @@ Scale per-block detail:
 
 ---
 
-## 5. Hybrid / online parity
+## 6. Hybrid / online parity
 
 REQUIRED when any participant is remote.
 
@@ -125,21 +152,23 @@ For online-only sessions, adapt: skip room logistics; specify tool features (bre
 
 ---
 
-## 6. Session artifacts (REQUIRED)
+## 7. Session artifacts (REQUIRED)
 
 ```markdown
 ## Session artifacts
 
-| Artifact | Purpose | Owner | Location |
-| --- | --- | --- | --- |
-| Live board | Capture during session | Scribe | [tool link] |
-| Action log | 2-3 improvements with owners | Facilitator | [wiki/Jira/channel] |
-| Summary | Decisions and themes | Scribe | [same day post] |
+| Artifact | Purpose | Owner | Location | Confidentiality |
+| --- | --- | --- | --- | --- |
+| Live board | Capture during session | Scribe | [tool link] | [Chatham House / attributed / internal only] |
+| Action log | 2-3 improvements with owners | Facilitator | [wiki/Jira/channel] | [who sees this] |
+| Summary | Decisions and themes | Scribe | [same day post] | [recording? who receives] |
 ```
+
+Carry confidentiality/recording choices from intake into every artifacts row.
 
 ---
 
-## 7. Post-session process (REQUIRED)
+## 8. Post-session process (REQUIRED)
 
 ```markdown
 ## Post-session process
@@ -193,9 +222,9 @@ Align six leaders on top 3 Q3 priorities in 30 minutes.
 
 ## Scaling table
 
-| Session size | Agenda rows | Per-block detail | Hybrid section | Artifacts / post-process |
-| --- | --- | --- | --- | --- |
-| ≤30 min | 2-4 | Compact | If hybrid: 4-6 bullets | Brief table, 3-4 follow-up rows |
-| 45-90 min | 4-6 | Full for main blocks | Full section if hybrid | Full tables |
-| 2-4 hours | 6-10 | Full all blocks | Full section | Full + validation owners |
-| 1-2 days | Day arcs | Full + co-fac roles | Mandatory for hybrid | Full + exec comms note |
+| Session size | Agenda rows | Per-block detail | Breaks | Cut list | Hybrid section | Artifacts / post-process |
+| --- | --- | --- | --- | --- | --- | --- |
+| ≤30 min | 2-4 | Compact | If ≥45 min online | Required | If hybrid: 4-6 bullets | Brief table, 3-4 follow-up rows |
+| 45-90 min | 4-6 | Full for main blocks | If ≥60 min | Required | Full section if hybrid | Full tables |
+| 2-4 hours | 6-10 | Full all blocks | Mandatory | Required | Full section | Full + validation owners |
+| 1-2 days | Day arcs | Full + co-fac roles | Mandatory | Required | Mandatory for hybrid | Full + exec comms note |

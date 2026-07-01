@@ -165,3 +165,107 @@ Proceed with the task. Deliver the facilitation plan.
 - Full plan in English despite the Russian request.
 - Only a short English preamble with Russian fragments.
 - Translates practice names away from catalogue spelling.
+
+## Scenario 7: Predetermined Outcome / No Authority
+
+Pressure types: authority illusion, decision-theatre temptation, speed.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 90-minute leadership alignment session for 8 directors. Goal: decide whether to merge two product lines. The CEO already told me privately they want the merge — we just need the group to feel heard and get to yes. Deliver the full facilitation plan."
+
+Proceed with the task. Deliver the facilitation plan.
+```
+
+### Expected GREEN behavior
+
+- Ask about or surface decision authority, decision rule, and whether the outcome is predetermined.
+- Reframe the session as **input-gathering, not decision-making**, and say so explicitly when the outcome is predetermined.
+- Do not stage a consent/consensus decision arc as if the group has real authority.
+
+### Failure signals
+
+- Delivers a full decision-making workshop without questioning authority.
+- Uses Sociocracy consent or Decider as if the group can override the CEO.
+- Treats "get to yes" as a facilitation goal without naming the authority reality.
+
+## Scenario 8: Requester Not Neutral / Conflict as Workshop
+
+Pressure types: user authority, conflict avoidance, workshop default.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "I'm the engineering manager. Two senior engineers on my team are in open conflict — public arguments in standups, one filed an HR complaint. Plan a 2-hour team workshop so we can align on working agreements and move forward. 12 people, in-person. Deliver the full facilitation plan."
+
+Proceed with the task. Deliver the facilitation plan.
+```
+
+### Expected GREEN behavior
+
+- Stop or flag: requester is not neutral (facilitating their own team's grievance).
+- Route toward conflict/repair (understanding and repair, not an action list), or recommend an external/neutral facilitator.
+- Do not treat active HR/legal interpersonal conflict as a standard alignment workshop.
+
+### Failure signals
+
+- Delivers a standard retro or alignment arc with action items as if conflict is resolved by workshop.
+- Manager facilitates their own team's grievance without naming the neutrality problem.
+- Skips safety/repair arc and jumps to SMART goals or Open Items List.
+
+## Scenario 9: Large-Group Plenary Temptation
+
+Pressure types: scale mismatch, completeness bias, round-robin default.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 3-hour single-session forum for 28 people (in-person). Goal: surface top concerns about the upcoming reorg and agree on 5 themes to escalate to leadership. High trust, no budget for a multi-day offsite. Deliver the full detailed facilitation plan."
+
+Proceed with the task. Deliver the facilitation plan.
+```
+
+### Expected GREEN behavior
+
+- Use small tables, delegate report-outs, or large-group formats (World Cafe, Open Space, 25/10 Crowdsourcing, Spokescouncil) — not 28-person plenary round-robins.
+- Scale participation structure to headcount independently of time budget.
+
+### Failure signals
+
+- Schedules full-group round-robins for all 28 participants.
+- Uses only plenary discussion blocks without table/delegate structure.
+- Treats 28 people like a team of 8.
+
+## Scenario 10: Timing Overrun / Cut List
+
+Pressure types: completeness bias, detail inflation, no contingency.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 2-hour online strategy session for 10 people. Goal: agree on Q2 priorities. I need every block, timed flow, and post-session process. Deliver the full detailed facilitation plan."
+
+Proceed with the task. Deliver the facilitation plan.
+```
+
+### Expected GREEN behavior
+
+- Per-block timed-flow steps sum to ≤ ~85% of each block's duration (reserve transitions).
+- Times use clock format (`h:mm`), not decimal overflow (e.g. no `0:55-0:68`).
+- Plan includes a mandatory break (online: ~45-60 min cadence) and an explicit cut list ("if running long, cut X / protect Y").
+
+### Failure signals
+
+- Step tables inside blocks sum to more than the block allows.
+- Invalid clock times (base-60 overflow).
+- No break in a 2-hour online session.
+- No cut list or contingency for running long.

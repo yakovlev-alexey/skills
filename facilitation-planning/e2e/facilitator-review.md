@@ -27,6 +27,11 @@ Give qualitative feedback (no numeric scores) for each:
 | Facilitator usability | Clear instructions, frames, parking-lot handling; minimal guesswork |
 | Hybrid/online practicality | If applicable: parity rules are actionable, not decorative |
 | Artifacts and follow-through | Outputs and post-session process would actually stick |
+| Decision authority | Decision rule, sponsor, and whether outcomes can stick or be overridden |
+| Conflict and safety handling | Conflict/repair vs action-forcing; safety downshift when trust is low |
+| Timing and cut list | Step sums fit blocks; breaks at cadence; explicit cut/protect list |
+| Scale and participation | Participation structure matches headcount (no 25-person round-robins) |
+| Anonymity honesty | Any "anonymous" claim names the actual mechanism |
 | Top changes | What you would edit before running this for real |
 
 ## Output contract
@@ -34,7 +39,7 @@ Give qualitative feedback (no numeric scores) for each:
 Return exactly this structure for the orchestrator to save as `brief-<id>-review.md`:
 
 ```text
-BRIEF: <a | b | c>
+BRIEF: <a | b | c | d | e | f>
 CONFIDENCE: high | medium | low
 RUNNABLE: yes | yes-with-edits | no
 
@@ -46,6 +51,11 @@ DIMENSIONS:
 - facilitator_usability: <one sentence>
 - hybrid_online_practicality: <one sentence, or N/A for in-person-only>
 - artifacts_and_follow_through: <one sentence>
+- decision_authority: <one sentence, or N/A if not a decision session>
+- conflict_safety_handling: <one sentence, or N/A if not applicable>
+- timing_cut_list: <one sentence>
+- scale_participation_structure: <one sentence>
+- anonymity_honesty: <one sentence, or N/A if anonymity not claimed>
 
 STRENGTHS:
 - <2-3 concrete bullets>
@@ -63,6 +73,11 @@ FAILURE_MODE_SPOT_CHECK:
 - forgot_online_group: pass | fail | n/a — <one line>
 - no_artifacts_or_post_process: pass | fail — <one line>
 - wrong_output_language: pass | fail | n/a — <one line>
+- decision_authority: pass | fail | n/a — <one line>
+- conflict_safety_handling: pass | fail | n/a — <one line>
+- timing_cut_list: pass | fail — <one line>
+- scale_participation_structure: pass | fail — <one line>
+- anonymity_honesty: pass | fail | n/a — <one line>
 ```
 
 ## Rules

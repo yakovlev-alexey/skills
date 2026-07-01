@@ -38,6 +38,12 @@ Before designing, gather:
 - Mode: in-person, online, or hybrid
 - Constraints: what cannot be promised, sensitive topics
 - Artifacts and what happens after the session
+- **Sponsor / decision owner** — who owns the outcome and can commit resources
+- **Decision rule** — consult / consent / consensus / leader-decides / vote; select **before** the arc using `Agreement and Certainty`
+- **Authority reality** — will this stick, or can it be overridden? If unclear or predetermined, reframe as **input-gathering, not decision-making**, and say so
+- **Acceptance criteria** — what "done" looks like; fallback if no agreement emerges
+- **Confidentiality / recording** — Chatham House vs attributed; recorded?; who sees the output (carries into artifacts)
+- **Facilitator neutrality + who is in the room** — is the requester a participant or neutral facilitator? Is the decision-maker present? Is any key knowledge-holder missing?
 
 If essentials are missing, ask **2-4 targeted questions**. Do not invent participant count, duration, goals, or constraints. A user saying "just give me something" is not permission to skip intake.
 
@@ -49,23 +55,26 @@ Offer **2-3 session arcs** from `references/session-patterns.md`. Each arc lists
 
 Expand the chosen arc using `references/plan-template.md`. Scale depth to session size.
 
-## Catalogue rule
+## Catalogue rule (`framing_plus_labeled`)
 
-Select formats **only** from `references/catalogue.md`. Every recommended practice must appear there with its source link.
+Named branded practices are **catalogue-first, always** — select from `references/catalogue.md` with source link.
 
-If the user names a practice not in the catalogue (for example Sailboat), say so honestly. Offer the closest catalogue match or a plain generic structure. **Never invent branded practice names** or attribute non-catalogue methods to the digest.
+Framing/admin/transition/break/decision-rule/cut-list blocks may be described as **plain facilitation structure** with no forced catalogue citation.
+
+Off-catalogue is allowed only when the user names it or nothing in the catalogue fits, and must be explicitly labeled: `not from the digest — [real source], unverified against catalogue`. Never fabricate a source; never attribute an off-catalogue method to the digest.
 
 ## Output contract
 
 A complete plan includes all REQUIRED sections from `plan-template.md`:
 
-1. Goal and outcomes
+1. Goal and outcomes (incl. decision authority and acceptance criteria when relevant)
 2. Agenda table (Time / Block / Format / Output)
 3. Per-block detail (why, format+link, frame, facilitator notes, timed flow, output)
-4. Preparation
-5. Hybrid/online parity (when remote participants exist)
-6. **Session artifacts**
-7. **Post-session process** (owners, actions, timeline, next checkpoint)
+4. **Cut list** (if running long, cut X / protect Y)
+5. Preparation
+6. Hybrid/online parity (when remote participants exist)
+7. **Session artifacts** (incl. confidentiality/recording from intake)
+8. **Post-session process** (owners, actions, timeline, next checkpoint)
 
 Do not deliver agenda and blocks alone.
 
@@ -78,13 +87,24 @@ Do not deliver agenda and blocks alone.
 | 2-4 hours | 6-10 blocks, full preparation |
 | 1-2 days | Day arcs, co-facilitation, mandatory hybrid section |
 
+Group size (headcount) is independent of time — see headcount axis in `references/session-patterns.md`. Do not schedule plenary round-robins above ~8 people.
+
 ## Hybrid, language, red flags
 
 Hybrid/online: digital board as source of truth, equal remote contribution, online advocate, no room-only workflows.
 
 Language: plan in the user's request language; practice names and links stay English.
 
-Stop if: no intake on sparse request; non-catalogue practice; multi-day plan for ≤30 min; hybrid without online design; no artifacts/post-process; wrong output language.
+Stop if:
+
+- No clear decision authority, or predetermined outcome disguised as participation
+- Requester is not neutral (facilitating their own grievance)
+- Active interpersonal / HR / legal conflict framed as a workshop
+- Key decision-maker or knowledge-holder missing
+- Impossible scope for the time
+- Safety check fails in the room
+- Trauma/grief context routed to an action-oriented arc
+- No intake on sparse request; hybrid without online design; no artifacts/post-process; wrong output language
 
 ## References
 
@@ -103,4 +123,4 @@ Non-goals: no live meeting bot, no catalogue curation in this skill, manual sync
 
 ## Common mistakes
 
-Designing before intake; inventing formats; over-scoping short meetings; hybrid as "room plus video"; skipping follow-up; ignoring "do not promise" constraints; editing without pressure + E2E runs committed.
+Designing before intake; inventing branded practice names or fake catalogue citations; staging decision sessions without authority; over-scoping short meetings; plenary round-robins at large scale; step times exceeding block duration; hybrid as "room plus video"; skipping follow-up or cut list; ignoring "do not promise" constraints; editing without pressure + E2E runs committed.
