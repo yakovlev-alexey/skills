@@ -91,6 +91,16 @@ Stop if: no intake on sparse request; non-catalogue practice; multi-day plan for
 - `references/catalogue.md`, `session-patterns.md`, `plan-template.md`
 - Regenerate catalogue: `node scripts/build-catalogue.mjs`
 
+## Testing
+
+Before editing this skill:
+
+1. **Pressure scenarios** — RED/GREEN per `pressure-scenarios.md`; record in `pressure-results-<date>.md`.
+2. **E2E briefs** — per `e2e/briefs.md`: executor subagent per brief, separate facilitator review subagent per output (`e2e/facilitator-review.md`). Commit run under `e2e/runs/<date>/` with `run-manifest.md` pinning definition file contents, outputs, reviews, and `summary.md`.
+3. **Catalogue sync** — `node scripts/build-catalogue.mjs` after `awesome-facilitation` changes.
+
+Non-goals: no live meeting bot, no catalogue curation in this skill, manual sync only.
+
 ## Common mistakes
 
-Designing before intake; inventing formats; over-scoping short meetings; hybrid as "room plus video"; skipping follow-up; ignoring "do not promise" constraints.
+Designing before intake; inventing formats; over-scoping short meetings; hybrid as "room plus video"; skipping follow-up; ignoring "do not promise" constraints; editing without pressure + E2E runs committed.

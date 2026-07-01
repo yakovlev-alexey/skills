@@ -50,13 +50,11 @@ GREEN outcome: **pass** — all six scenarios comply with skill rules.
 
 ## End-to-end briefs
 
-| Brief | Arc | Failure modes | Notes |
-| --- | --- | --- | --- |
-| A — Rough-sprint retro, 75 min, online, low trust | `retro-safe` | All pass | Full 7-section plan; Safety Check → Happiness Radar → Starfish → actions |
-| B — Two-day hybrid Strategy Lab, 25 people | `strategy-lab` | All pass | Day 1 sense/focus, Day 2 decide/commit; budget constraint respected in framing |
-| C — 3h discovery kickoff, 10 in-person | `discovery-opportunities` (adapted) | All pass (hybrid N/A) | 8 blocks, 13 catalogue practices; pre-read dependency noted |
+Full run with outputs, facilitator reviews, and pinned definitions:
 
-E2E outcome: **pass** — all three briefs produce catalogue-grounded plans at appropriate scale with required artifacts and follow-up.
+**[e2e/runs/2026-07-01/summary.md](e2e/runs/2026-07-01/summary.md)**
+
+E2E outcome: **yes-with-edits** on all three briefs — catalogue-grounded plans with artifacts and follow-up; facilitator reviews flag timing/scale issues before running live.
 
 ## Refactor notes
 
