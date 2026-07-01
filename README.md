@@ -16,6 +16,12 @@ Dotfiles-specific skills live in the dotfiles repository instead.
 | [`agentlytics-setup`](agentlytics-setup/SKILL.md) | Starting the Agentlytics relay, joining or refreshing local history, discovering the username, or fixing missing MCP visibility. |
 | [`agentlytics-session-analysis`](agentlytics-session-analysis/SKILL.md) | Analyzing agentic development sessions, prompt quality, agent collaboration habits, coding-agent trajectories, or Agentlytics MCP history. |
 
+### Facilitation
+
+| Skill | Use when |
+| --- | --- |
+| [`facilitation-planning`](facilitation-planning/SKILL.md) | Facilitating, moderating, or running a meeting, workshop, session, retro, retrospective, brainstorm, ideation, discovery, planning, strategy session, decision-making, kickoff, alignment, or workshop agenda. |
+
 ### TypeScript Web Apps
 
 | Skill | Use when |
