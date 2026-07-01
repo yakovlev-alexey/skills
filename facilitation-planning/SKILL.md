@@ -25,6 +25,7 @@ digraph facilitation_flow {
   "Ask 2-4 targeted questions" -> "Phase 2: Skeletons";
   "Phase 2: Skeletons" -> "User picks arc";
   "User picks arc" -> "Phase 3: Detailed plan";
+  "Phase 3: Detailed plan" -> "Write markdown file";
 }
 ```
 
@@ -55,6 +56,18 @@ Offer **2-3 session arcs** from `references/session-patterns.md`. Each arc lists
 
 Expand the chosen arc using `references/plan-template.md`. Scale depth to session size.
 
+Phase 3 is not complete until a markdown file exists with the full plan.
+
+**Path** (first match wins):
+
+1. User-specified path
+2. Existing project convention for facilitation or workshop plans (if evident)
+3. Default: `docs/facilitation-plans/<YYYY-MM-DD>-<slug>.md` — `<slug>` is kebab-case from session type or goal (e.g. `team-retro`, `q3-priority-alignment`); create the directory if missing
+
+**In chat:** file path plus a brief overview (goal, duration, key blocks). Do not duplicate per-block detail, timed flows, or ASCII frames.
+
+**Follow-up:** when the user refines the plan after Phase 3, edit the same markdown file in place. Do not leave the file stale or create a duplicate unless the user asks.
+
 ## Catalogue rule (`framing_plus_labeled`)
 
 Named branded practices are **catalogue-first, always** — select from `references/catalogue.md` with source link.
@@ -64,6 +77,8 @@ Framing/admin/transition/break/decision-rule/cut-list blocks may be described as
 Off-catalogue is allowed only when the user names it or nothing in the catalogue fits, and must be explicitly labeled: `not from the digest — [real source], unverified against catalogue`. Never fabricate a source; never attribute an off-catalogue method to the digest.
 
 ## Output contract
+
+Phase 3 deliverable is a markdown **file** at the resolved path. Chat is a pointer and summary, not the source of truth.
 
 A complete plan includes all REQUIRED sections from `plan-template.md`:
 
@@ -123,4 +138,4 @@ Non-goals: no live meeting bot, no catalogue curation in this skill, manual sync
 
 ## Common mistakes
 
-Designing before intake; inventing branded practice names or fake catalogue citations; staging decision sessions without authority; over-scoping short meetings; plenary round-robins at large scale; step times exceeding block duration; hybrid as "room plus video"; skipping follow-up or cut list; ignoring "do not promise" constraints; editing without pressure + E2E runs committed.
+Designing before intake; inventing branded practice names or fake catalogue citations; staging decision sessions without authority; over-scoping short meetings; plenary round-robins at large scale; step times exceeding block duration; hybrid as "room plus video"; skipping follow-up or cut list; ignoring "do not promise" constraints; Phase 3 plan delivered in chat only with no markdown file; follow-up edits only in chat while the file stays stale; new file on every revision instead of updating the existing plan document; editing without pressure + E2E runs committed.

@@ -269,3 +269,59 @@ Proceed with the task. Deliver the facilitation plan.
 - Invalid clock times (base-60 overflow).
 - No break in a 2-hour online session.
 - No cut list or contingency for running long.
+
+## Scenario 11: Phase 3 Must Write Markdown File
+
+Pressure types: chat-only delivery, completeness in message instead of artifact.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "We picked the retro-safe arc. Plan a 60-minute sprint retrospective for 7 people, online, after a stressful release. We need psychological safety and 2-3 improvement actions. Give me the full detailed facilitation plan."
+
+Proceed with the task. Deliver the facilitation plan.
+```
+
+### Expected GREEN behavior
+
+- Creates a markdown file at `docs/facilitation-plans/<date>-<slug>.md` (or another path per skill priority rules).
+- File contains all REQUIRED sections from `plan-template.md` (goal, agenda, per-block detail, cut list, preparation, hybrid/online parity, artifacts, post-session).
+- In chat: file path plus brief overview (goal, duration, key blocks) — not a full per-block dump.
+
+### Failure signals
+
+- Full plan only in chat; no file created.
+- File missing cut list, artifacts, or post-session process.
+- Full timed-flow or per-block detail duplicated in chat.
+
+## Scenario 12: Follow-Up Edits Update The File
+
+Pressure types: chat-only follow-up, duplicate file on revision, stale artifact.
+
+### Orchestrator setup
+
+Before GREEN run: place a minimal stub at `docs/facilitation-plans/2026-07-01-sprint-retro.md` with goal, agenda table, at least two blocks, and a cut list.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+You previously created docs/facilitation-plans/2026-07-01-sprint-retro.md with a facilitation plan. The user says: "Shorten block 2 to 10 minutes and add a cut-list entry for the affinity cluster if we're behind."
+
+Update the plan.
+```
+
+### Expected GREEN behavior
+
+- Edits the existing file in place (does not create a new file without reason).
+- Block 2 duration and cut list reflect the requested changes in the markdown file.
+- In chat: what changed plus the file path — not a full plan rewrite in the message.
+
+### Failure signals
+
+- Reply only in chat; file unchanged.
+- New file created instead of updating the existing plan document.
+- Changes described in chat but not written to the file.

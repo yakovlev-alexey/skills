@@ -4,6 +4,8 @@ Output contract for Phase 3. Fill every REQUIRED section. Scale depth to session
 
 ## REQUIRED document structure
 
+Phase 3 output is a markdown **file** at the path resolved in `SKILL.md` (Phase 3). The file is the source of truth for later iterations; write all sections below into that file.
+
 Produce the plan in this order:
 
 1. Session goal and key outcomes (incl. decision authority, acceptance criteria, confidentiality when relevant)
