@@ -45,6 +45,8 @@ Before designing, gather:
 - **Acceptance criteria** — what "done" looks like; fallback if no agreement emerges
 - **Confidentiality / recording** — Chatham House vs attributed; recorded?; who sees the output (carries into artifacts)
 - **Facilitator neutrality + who is in the room** — is the requester a participant or neutral facilitator? Is the decision-maker present? Is any key knowledge-holder missing?
+- **Timezone spread / energy windows** — for online or async sessions: participant timezones, overlap hours, energy dips; drives shorter live blocks and more breaks
+- **Pre-interview (optional, high-stakes)** — for complex or politically sensitive sessions, interview 2-3 participants before designing; do not rely on the requester's account alone
 
 If essentials are missing, ask **2-4 targeted questions**. Do not invent participant count, duration, goals, or constraints. A user saying "just give me something" is not permission to skip intake.
 
@@ -88,8 +90,8 @@ A complete plan includes all REQUIRED sections from `plan-template.md`:
 4. **Cut list** (if running long, cut X / protect Y)
 5. Preparation
 6. Hybrid/online parity (when remote participants exist)
-7. **Session artifacts** (incl. confidentiality/recording from intake)
-8. **Post-session process** (owners, actions, timeline, next checkpoint)
+7. **Session artifacts** (incl. confidentiality/recording from intake; follow-through governance when relevant)
+8. **Post-session process** (owners, actions, timeline, next checkpoint; governance items per `plan-template.md`)
 
 Do not deliver agenda and blocks alone.
 
@@ -104,21 +106,23 @@ Do not deliver agenda and blocks alone.
 
 Group size (headcount) is independent of time — see headcount axis in `references/session-patterns.md`. Do not schedule plenary round-robins above ~8 people.
 
+Additional arcs in `session-patterns.md`: `dependency-alignment`, `risk-premortem`, `incident-postmortem`, `town-hall`, `async-first`, `tender-listening`.
+
 ## Hybrid, language, red flags
 
-Hybrid/online: digital board as source of truth, equal remote contribution, online advocate, no room-only workflows.
+Hybrid/online: digital board as source of truth, equal remote contribution, online advocate, no room-only workflows. **Hybrid operations checklist** (AV, breakout parity, remote facilitator) — see `plan-template.md` section 6.
 
 Language: plan in the user's request language; practice names and links stay English.
 
 Stop if:
 
 - No clear decision authority, or predetermined outcome disguised as participation
-- Requester is not neutral (facilitating their own grievance)
+- Requester is not neutral — a manager cannot both participate in and neutrally facilitate their own team's grievance; route to external/neutral facilitator
 - Active interpersonal / HR / legal conflict framed as a workshop
 - Key decision-maker or knowledge-holder missing
 - Impossible scope for the time
 - Safety check fails in the room
-- Trauma/grief context routed to an action-oriented arc
+- Trauma/grief context (layoffs, bereavement, reorg grief) routed to an action-oriented arc — use `tender-listening` instead
 - No intake on sparse request; hybrid without online design; no artifacts/post-process; wrong output language
 
 ## References
@@ -138,4 +142,4 @@ Non-goals: no live meeting bot, no catalogue curation in this skill, manual sync
 
 ## Common mistakes
 
-Designing before intake; inventing branded practice names or fake catalogue citations; staging decision sessions without authority; over-scoping short meetings; plenary round-robins at large scale; step times exceeding block duration; hybrid as "room plus video"; skipping follow-up or cut list; ignoring "do not promise" constraints; Phase 3 plan delivered in chat only with no markdown file; follow-up edits only in chat while the file stays stale; new file on every revision instead of updating the existing plan document; editing without pressure + E2E runs committed.
+Designing before intake; inventing branded practice names or fake catalogue citations; staging decision sessions without authority; over-scoping short meetings; plenary round-robins at large scale; step times exceeding block duration; hybrid as "room plus video"; skipping hybrid operations checklist or dedicated remote facilitator; skipping follow-through governance or cut list; routing trauma/grief to action-forcing arcs; ignoring "do not promise" constraints; Phase 3 plan delivered in chat only with no markdown file; follow-up edits only in chat while the file stays stale; new file on every revision instead of updating the existing plan document; editing without pressure + E2E runs committed.

@@ -17,7 +17,13 @@ Reusable session arcs keyed to common facilitation goals. Each arc maps blocks t
 | Product discovery / kickoff | 2-4 hours | `discovery-opportunities`, `discovery-kickoff` |
 | Decision / alignment | 30-90 min | `alignment-priorities`, `alignment-commit` |
 | Conflict / repair | 60-120 min | `conflict-repair` |
+| Cross-team dependency alignment | 90-180 min | `dependency-alignment` |
+| Risk / premortem workshop | 90-180 min | `risk-premortem` |
+| Incident / postmortem | 90-180 min | `incident-postmortem` |
 | Large-group forum | 2-4 hours | `large-group-forum` |
+| Town hall (broadcast + Q&A) | 60-120 min | `town-hall` |
+| Async-first convergence | 2-5 days async + 60-120 min live | `async-first` |
+| Tender / trauma listening | 60-90 min | `tender-listening` |
 | Strategy / multi-day lab | 1-2 days | `strategy-lab` |
 
 ---
@@ -222,6 +228,149 @@ Scale participation by headcount — not plenary round-robins. See headcount axi
 **Recommend when:** Multi-stakeholder strategy, not a single-team retro.
 
 **Hybrid notes:** Use one digital board as source of truth; assign online advocate; online-first speaking order in plenaries.
+
+---
+
+## Cross-team dependency alignment (90-180 min, 8-20 people)
+
+Destination: **ownership, constraints, and sequencing** — not idea generation. Do not route dependency work to brainstorm or discovery arcs.
+
+### Arc — `dependency-alignment`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Frame | ToP Focused Conversation or 9 Whys | Shared dependency question and success signal |
+| Map | Context Mapping or Responsibility Mapping | Who owns what; handoffs and gaps visible |
+| Constraints | Circles & Soup or Circle of Influence | Team-owned vs external blockers |
+| Requests | What I Need From You | Explicit cross-team asks and offers |
+| Sequence | Open Items List or Min Specs | Sequenced commitments with owners and dates |
+
+**Trade-offs:** Needs representatives who can commit for their teams; weak without decision authority present.
+
+**Recommend when:** Multiple teams must coordinate delivery; ownership is unclear; sequencing matters more than generating options.
+
+**Stop if:** Key dependency owners missing; no authority to commit resources — reframe as input-gathering only.
+
+---
+
+## Risk / premortem workshop (90-180 min, 6-15 people)
+
+Destination: **surface failure modes and mitigations before committing** — not a sprint retro.
+
+### Arc — `risk-premortem`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Frame | Agreement and Certainty or Safety Check | Shared plan under review; decision rule if committing |
+| Imagine failure | Premortem or The Worst We Could Do | Named failure modes and early warning signs |
+| Map forces | Force Field Analysis or Critical Uncertainties | Supporting vs resisting forces; scenario branches |
+| Prioritize | Dot Vote or Importance/Difficulty Matrix | Top risks to address |
+| Mitigate | 15% Solutions + Open Items List | Owned mitigations and checkpoints |
+
+**Trade-offs:** Can feel pessimistic if poorly framed; needs sponsor present if mitigations require resources.
+
+**Recommend when:** Launching a risky initiative, major release, or strategic bet; group needs shared risk picture before go/no-go.
+
+**Criteria-before-vote:** Set risk-prioritization criteria before voting on top risks.
+
+---
+
+## Incident / postmortem (90-180 min, 6-15 people)
+
+Destination: **blameless learning and systemic actions** — not individual blame or a standard retro.
+
+### Arc — `incident-postmortem`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Frame | Creating Safety + blameless postmortem framing (plain facilitation structure) | Agreement: inspect systems, not people |
+| Timeline | Timeline | Shared event sequence with timestamps |
+| Analyze | 5 Whys or Cause-Effect-Diagram | Contributing factors (not root-cause theatre) |
+| Systemic focus | Circles & Soup / Circle of Influence | Team-owned vs external factors |
+| Actions | Open Items List | Systemic improvements with owners — no blame assignments |
+
+**Trade-offs:** Requires psychological safety; may need to pause if HR/legal investigation is active.
+
+**Recommend when:** Production incident, outage, or serious failure; goal is learning and prevention.
+
+**Stop if:** Active HR/legal investigation where blameless framing cannot be honored; route to legal/HR process instead.
+
+**Blameless rule:** Never assign corrective actions to "who messed up." Actions address systems, processes, and safeguards.
+
+---
+
+## Town hall — broadcast + Q&A (60-120 min, 30+ people)
+
+Distinct from `large-group-forum`: leadership **broadcasts context**, then structured Q&A and sentiment capture — not working sessions or theme synthesis.
+
+### Arc — `town-hall`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Arrive | Check-in (table-level or pulse poll, not full round-robin) | Energy baseline |
+| Broadcast | Leadership update (plain facilitation structure) | Shared context and decisions already made |
+| Q&A | Open Space marketplace or structured Q&A rounds | Top questions surfaced and answered |
+| Sentiment | Safety Check or Happiness Radar (anonymous if claimed — name mechanism) | Room temperature captured |
+| Close | What, So What, Now What or escalation brief | Themes for follow-up; no forced action list |
+
+**Trade-offs:** Limited depth; hard questions may need offline follow-up; not a decision-making session.
+
+**Recommend when:** Large group needs leadership visibility, Q&A, and sentiment after reorg/announcement — not collaborative working time.
+
+**vs `large-group-forum`:** Forum = structured input and theme synthesis from participants. Town hall = broadcast + Q&A + sentiment.
+
+---
+
+## Async-first convergence (2-5 days async + 60-120 min live)
+
+Especially for online multi-day labs that cannot replicate in-person `strategy-lab` on video. **Async divergence before; live time reserved for convergence only.**
+
+### Arc — `async-first`
+
+**Async phase (2-5 days before live session)**
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Frame | Pre-read + async prompt (plain facilitation structure) | Shared question and deadline |
+| Diverge | Brainwriting or 1-2-4-All (async board) | Individual contributions before live |
+| Cluster | Affinity Clustering (async, facilitator synthesizes) | Draft themes for live convergence |
+
+**Live session (60-120 min)**
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Arrive | Check-in | Context and energy |
+| Converge | What, So What, Now What or Dot Vote | Decisions on pre-clustered themes |
+| Commit | Open Items List + Gradients of Agreement | Owned next steps with reservations captured |
+
+**Timezone / energy:** Shorter live blocks (~60-90 min max); more breaks; schedule live window in overlap hours from intake.
+
+**Trade-offs:** Requires async participation discipline; weak if contributors skip pre-work.
+
+**Recommend when:** Participants span timezones; full live workshop impractical; convergence is the bottleneck, not divergence.
+
+---
+
+## Tender / trauma listening (60-90 min, small group)
+
+Destination: **support and acknowledgment, not an action list.** Post-layoff, reorg grief, bereavement — do not route to retro, alignment, or action-forcing arcs.
+
+### Arc — `tender-listening`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Safety | Creating Safety or Heard, Seen, Respected | Psychological baseline; opt-out honored |
+| Share | Rounds or Conversation Cafe (voluntary participation) | Stories and feelings heard |
+| Acknowledge | What, So What, Now What (facts and meaning only — no "now what" action forcing) | Shared understanding of impact |
+| Close | Light check-out (plain facilitation structure) | No action items; optional resources signposted |
+
+**Trade-offs:** Not a therapy session; facilitator is not a counselor. May need EAP/professional support signposted.
+
+**Recommend when:** Team processing loss, layoffs, bereavement, or reorg grief; goal is being heard, not fixing.
+
+**Stop if:** Active crisis, individual in acute distress, or requester wants "quick action plan" — redirect to HR/EAP or external support; do not force SMART goals.
+
+**Stop/redirect:** If safety check fails or emotional escalation exceeds group capacity, pause the arc, offer break, and signpost professional resources. Do not push through to action items.
 
 ---
 

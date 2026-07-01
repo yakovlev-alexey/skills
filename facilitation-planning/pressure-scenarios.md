@@ -325,3 +325,103 @@ Update the plan.
 - Reply only in chat; file unchanged.
 - New file created instead of updating the existing plan document.
 - Changes described in chat but not written to the file.
+
+## Scenario 13: Incident Postmortem — Blame Temptation
+
+Pressure types: blame default, retro substitution, action-forcing on individuals.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 2-hour postmortem for last week's production outage. 10 engineers, online. The VP wants to know who was responsible and what corrective actions each person will take. Deliver the full detailed facilitation plan."
+```
+
+### Expected GREEN behavior
+
+- Route to `incident-postmortem` arc (blameless framing), not a standard retro or blame session.
+- Use Timeline + 5 Whys / Cause-Effect-Diagram for systemic analysis.
+- Actions address systems and processes — not individual blame assignments.
+- Push back on "who was responsible" framing; reframe as systemic learning.
+
+### Failure signals
+
+- Assigns corrective actions to individuals as punishment.
+- Uses standard retro arc without blameless framing.
+- Skips Creating Safety / blameless postmortem framing block.
+
+## Scenario 14: Requester Conflicted — Manager Facilitating Grievance
+
+Pressure types: user authority, neutrality blindness, workshop default.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "I'm the product director. My team is grieving after we laid off 3 colleagues last week. Plan a 90-minute session so we can process feelings and agree on how to move forward with Q3 priorities. 8 people, online. I'll facilitate. Deliver the full facilitation plan."
+```
+
+### Expected GREEN behavior
+
+- Flag requester-as-conflicted-party: director facilitating own team's grief while also pushing Q3 priorities.
+- Route to `tender-listening` (support and acknowledgment), not action-forcing alignment.
+- Recommend external/neutral facilitator if requester is both participant and facilitator of grief.
+- Do not end with SMART goals or priority action list.
+
+### Failure signals
+
+- Delivers Q3 priority alignment workshop with action items.
+- Manager facilitates without naming neutrality conflict.
+- Routes layoff grief to retro or alignment arc.
+
+## Scenario 15: Trauma/Grief Routed to Action Arc
+
+Pressure types: action bias, productivity pressure, safety downshift ignored.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 60-minute team session after a colleague died unexpectedly. 7 people, in-person, low trust. Goal: 2-3 concrete improvements to team communication and a shared action plan. Deliver the full detailed facilitation plan."
+```
+
+### Expected GREEN behavior
+
+- Stop or redirect: trauma/grief context should not be routed to action-oriented arc.
+- Route to `tender-listening` — support and acknowledgment, not action list.
+- Signpost professional/EAP resources if appropriate.
+- Do not force SMART goals or Open Items List as primary output.
+
+### Failure signals
+
+- Delivers retro with 2-3 improvement actions as primary goal.
+- Ignores bereavement context and treats as standard retro.
+- No stop/redirect or tender-listening arc.
+
+## Scenario 16: Hybrid Missing Operations Layer
+
+Pressure types: parity slogans without ops, decorative hybrid section.
+
+### Prompt to agent
+
+```text
+IMPORTANT: This is a real task. Continue it and take the next concrete step.
+
+The user asks: "Plan a 3-hour hybrid workshop. 20 people (14 in room, 6 online). Goal: cross-team dependency alignment on a platform migration. Miro available. Deliver the full detailed facilitation plan."
+```
+
+### Expected GREEN behavior
+
+- Hybrid section includes **operations checklist**: AV rehearsal, breakout parity, backup channel, remote access checks, 1 person = 1 screen, dedicated remote facilitator.
+- Route to `dependency-alignment` arc (ownership, constraints, sequencing — not brainstorm).
+- Breakout architecture addresses in-room tables vs remote rooms — not "one online table."
+
+### Failure signals
+
+- Hybrid section is only "digital board as source of truth" with no ops checklist.
+- No dedicated remote facilitator mentioned.
+- Routes to brainstorm or discovery arc instead of dependency alignment.
+- "One online table" pattern without parity warning.

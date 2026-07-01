@@ -32,6 +32,11 @@ Give qualitative feedback (no numeric scores) for each:
 | Timing and cut list | Step sums fit blocks; breaks at cadence; explicit cut/protect list |
 | Scale and participation | Participation structure matches headcount (no 25-person round-robins) |
 | Anonymity honesty | Any "anonymous" claim names the actual mechanism |
+| Hybrid operations | If hybrid: AV, breakout parity, backup channel, remote facilitator — not decorative |
+| Facilitator contingencies | Risky blocks include fallback moves (silence, dominance, escalation, behind schedule) |
+| Follow-through governance | Decision log, "not doing" list, dissent, sponsor sign-off, owner authority, checkpoint booked |
+| Async structure | If async-first: blocks marked async vs live; timezone overlap honored |
+| Blameless postmortem | If incident/postmortem: systemic actions, no individual blame |
 | Top changes | What you would edit before running this for real |
 
 ## Output contract
@@ -39,7 +44,7 @@ Give qualitative feedback (no numeric scores) for each:
 Return exactly this structure for the orchestrator to save as `brief-<id>-review.md`:
 
 ```text
-BRIEF: <a | b | c | d | e | f>
+BRIEF: <a | b | c | d | e | f | g | h | i>
 CONFIDENCE: high | medium | low
 RUNNABLE: yes | yes-with-edits | no
 
@@ -56,6 +61,11 @@ DIMENSIONS:
 - timing_cut_list: <one sentence>
 - scale_participation_structure: <one sentence>
 - anonymity_honesty: <one sentence, or N/A if anonymity not claimed>
+- hybrid_operations: <one sentence, or N/A if not hybrid>
+- facilitator_contingencies: <one sentence, or N/A if no risky blocks>
+- follow_through_governance: <one sentence>
+- async_structure: <one sentence, or N/A if not async-first>
+- blameless_postmortem: <one sentence, or N/A if not incident/postmortem>
 
 STRENGTHS:
 - <2-3 concrete bullets>
@@ -78,6 +88,11 @@ FAILURE_MODE_SPOT_CHECK:
 - timing_cut_list: pass | fail — <one line>
 - scale_participation_structure: pass | fail — <one line>
 - anonymity_honesty: pass | fail | n/a — <one line>
+- hybrid_operations: pass | fail | n/a — <one line>
+- facilitator_contingencies: pass | fail | n/a — <one line>
+- follow_through_governance: pass | fail — <one line>
+- async_structure: pass | fail | n/a — <one line>
+- blameless_postmortem: pass | fail | n/a — <one line>
 ```
 
 ## Rules

@@ -56,7 +56,8 @@ Rules:
 - Framing/admin/transition/break/decision-rule blocks may be labeled "plain facilitation structure" without a catalogue link.
 - Branded practice Format cells name a catalogue practice with its source link.
 - Mandatory break every ~60-75 min in-person, ~45-60 min online.
-- Last block must produce actions, decisions, or agreed next steps (except conflict/repair arcs — relationship agreement, not action list).
+- For **async-first** arcs: mark each agenda row `[async]` or `[live]`; async blocks run before the live convergence session.
+- Last block must produce actions, decisions, or agreed next steps (except conflict/repair and tender-listening arcs — relationship agreement or acknowledgment, not action list).
 - Every converge/vote block sets decision/prioritization criteria **before** voting.
 
 ---
@@ -82,6 +83,17 @@ Repeat for each agenda row:
 ```
 
 **Facilitator instruction:** [Tone, ground rules, what to say, what to avoid]
+
+**Facilitator contingencies (include for risky blocks — conflict, trauma, large group, tight timing):**
+| If… | Then… |
+| --- | --- |
+| Silence | [e.g. extend think time, pair share, written capture first] |
+| Dominance | [e.g. rounds, popcorn, "step up/step back"] |
+| Derailment | [e.g. parking lot, timebox, "let's return to…"] |
+| Emotional escalation | [e.g. pause, break, downshift arc; signpost support] |
+| No volunteers | [e.g. written first, pairs, opt-in rounds] |
+| Low energy | [e.g. stand/stretch, shorten block, cut optional step] |
+| Behind schedule | [e.g. cut list item X; protect safety/decision/close] |
 
 **Timed flow:**
 | Step | Time | Facilitator action |
@@ -148,6 +160,15 @@ REQUIRED when any participant is remote.
 - [e.g. Individual scoring in board, not show of hands in room]
 
 **Co-facilitation:** [Who monitors chat, hands, and reads room-only comments aloud]
+
+**Hybrid operations checklist (REQUIRED for hybrid — not optional):**
+- [ ] AV rehearsal completed; mic/camera/room-audio layout tested
+- [ ] Crosstalk handling plan (one speaker at a time; mute when not speaking)
+- [ ] Backup channel and connectivity-dropout contingency documented
+- [ ] Remote access checks completed before session start
+- [ ] Breakout architecture parity — in-room tables vs remote breakout rooms are not equivalent; avoid "one online table" pattern that isolates remotes
+- [ ] Strongest parity move stated: **1 person = 1 screen**, even in the room
+- [ ] Dedicated remote facilitator assigned (required for any hybrid session, not only multi-day)
 ```
 
 For online-only sessions, adapt: skip room logistics; specify tool features (breakouts, reactions, anonymous mode).
@@ -162,11 +183,21 @@ For online-only sessions, adapt: skip room logistics; specify tool features (bre
 | Artifact | Purpose | Owner | Location | Confidentiality |
 | --- | --- | --- | --- | --- |
 | Live board | Capture during session | Scribe | [tool link] | [Chatham House / attributed / internal only] |
-| Action log | 2-3 improvements with owners | Facilitator | [wiki/Jira/channel] | [who sees this] |
-| Summary | Decisions and themes | Scribe | [same day post] | [recording? who receives] |
+| Action log | Improvements with owners | Facilitator | [wiki/Jira/channel] | [who sees this] |
+| Decision log / record | Decisions made, criteria used, dissent captured | Scribe | [same doc] | [who sees this] |
+| "Not doing" list | Explicit deprioritizations | Facilitator | [board section] | [who sees this] |
+| Summary | Decisions, themes, reservations | Scribe | [same day post] | [recording? who receives] |
 ```
 
 Carry confidentiality/recording choices from intake into every artifacts row.
+
+**Follow-through governance (REQUIRED when session produces decisions or commitments):**
+- Decision log with criteria and `Gradients of Agreement` reservations/dissent captured
+- Explicit **"not doing"** list alongside commitments
+- Sponsor sign-off or confirmation step named
+- Communication plan for absent stakeholders
+- Verify action owners have **authority and resources** — not just names
+- **First checkpoint already booked** before the session ends (date on calendar, not "TBD")
 
 ---
 
@@ -177,13 +208,15 @@ Carry confidentiality/recording choices from intake into every artifacts row.
 
 | Step | Owner | When | Next step |
 | --- | --- | --- | --- |
-| Publish summary + action table | Scribe | Same day | Tag owners |
-| Create tasks for each action | Action owners | Within 24h | Link to retro doc |
-| Review progress | Facilitator / lead | [standup / 5 business days] | Resize or drop stuck actions |
+| Publish summary + action table + decision log | Scribe | Same day | Tag owners; send to absent stakeholders |
+| Sponsor sign-off / confirmation | Sponsor | Within 48h | Confirm or revise commitments |
+| Create tasks for each action | Action owners | Within 24h | Link to session doc |
+| Verify owner authority/resources | Sponsor / lead | Before tasks start | Reassign or escalate if blocked |
+| Review progress | Facilitator / lead | [checkpoint date — booked before session end] | Resize or drop stuck actions |
 | Revisit outcomes | Team | Next retro / [date] | Close loop on experiments |
 ```
 
-Do not end at the agenda. Every plan needs owners, timeline, and an explicit next checkpoint.
+Do not end at the agenda. Every plan needs owners, timeline, governance items above, and an explicit next checkpoint **already on the calendar**.
 
 ---
 
