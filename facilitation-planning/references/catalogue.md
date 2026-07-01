@@ -366,4 +366,92 @@ Workshop planning practices help facilitators shape the right sequence, question
 | Rose, Thorn, Bud | Use to collect positives, problems, and opportunities. | [Rose, Thorn, Bud](https://www.luma-institute.com/rose-thorn-bud/) |
 | Cover Story Mock-up | Use to align a group around a concrete future outcome. | [Cover Story Mock-up](https://www.luma-institute.com/cover-story-mock-up/) |
 
-_Total practices: 222_
+## Estimation and planning
+
+### Estimation practices
+
+Estimation practices help teams assign relative size, effort, or complexity to backlog items before planning or committing to work. Use them when the group needs shared sizing signals for sprint planning, PI planning, release forecasting, or roadmap sequencing — not when the challenge is prioritizing among already-sized options.
+
+| Practice | When to use | Source |
+| --- | --- | --- |
+| Planning Poker | Use when the whole team needs consensus story-point estimates for individual backlog items during refinement or sprint planning. | [Planning Poker](https://www.mountaingoatsoftware.com/agile/planning-poker) |
+| Affinity Estimation | Use when you must size many items quickly by silently grouping or comparing them on a relative scale instead of debating each item. | [Affinity Estimation](https://agilealliance.org/glossary/relative-estimation/) |
+| Magic Estimation | Use when Developers need to assign relative sizes to a large backlog fast via a reference item and silent individual placement. | [Magic Estimation](https://www.scrum.org/resources/blog/5-strategies-product-backlog-refinement) |
+| Bucket System | Use when the team should sort work into predefined Fibonacci buckets on a wall to calibrate references and estimate many items quickly. | [Bucket System](https://www.scrum.org/resources/blog/how-relative-estimates-can-help-you-play-stakeholders-game) |
+| T-Shirt Sizing | Use for coarse, low-precision sizing when story-point precision is unnecessary and you need a lightweight planning signal. | [T-Shirt Sizing](https://agilealliance.org/estimation-and-forecasting/) |
+| Team Estimation Game | Use when a team with many unestimated stories needs a fast baseline by silently placing cards into relative point columns, then refining outliers. | [Team Estimation Game](https://agilealliance.org/resources/experience-reports/positive-change-using-agile-methods/) |
+| Wall Session | Use when you need a timeboxed, wall-based rough point estimate of a large story set for release or budget planning. | [Wall Session](https://www.scrum.org/resources/blog/wall-session-practice) |
+| Relative Mass Valuation | Use when co-located teams must order a large backlog on a table by relative effort, draw cluster lines, then map clusters to story points. | [Relative Mass Valuation](https://www.atlassian.com/blog/development/groom-backlog-like-boss-jira-software) |
+
+## Agreement and polling
+
+### Agreement and polling practices
+
+Agreement and polling practices help groups gauge support, reservations, or positions before committing to a decision. Use them when a yes/no vote would hide weak commitment, when you need to see the distribution of views in the room, or when embodied positioning makes disagreement visible without forcing immediate debate. Card-based Gradients of Agreement lives in consensus and commitment practices; this family focuses on spatial, movement, and hand-signal variants.
+
+| Practice | When to use | Source |
+| --- | --- | --- |
+| Human Spectrogram | Use when participants need to stand along a continuum to show where they fall on a statement before discussion. | [Human Spectrogram](https://www.sessionlab.com/methods/human-spectrogram) |
+| Take a Stand | Use when the team needs to gauge agreement on several questions by moving along an imaginary line, then discussing extremes and middle. | [Take a Stand](https://www.sessionlab.com/methods/take-a-stand) |
+| Climate Reading | Use for a fast vote-with-your-feet opener to map where people stand on a meaningful polarity before deeper work. | [Climate Reading](https://www.sessionlab.com/methods/climate-reading) |
+| Constellations | Use when agreement is best shown as distance from a central topic; useful for readiness, beliefs, or system patterns. | [Constellations](https://www.sessionlab.com/methods/constellations) |
+| Temperature Check | Use when the group needs a hot–cold spatial read of sentiment on sensitive statements before problem-solving. | [Temperature Check](https://www.sessionlab.com/methods/temperature-check-uhkqf4) |
+| Fist to Five | Use for a quick simultaneous hand-signal poll on one proposal to reveal quality of support and who must speak. | [Fist to Five](https://www.sessionlab.com/methods/fist-to-five) |
+| Thumbs Up / Thumbs Down | Use for a fast consent check with up, sideways, down, or palm block when deciding whether to proceed or reopen discussion. | [Thumbs Up / Thumbs Down](https://www.sessionlab.com/methods/thumbs-up-thumbs-down) |
+| Gradients of Agreement (hand signals) | Use when a proposal needs Kaner's graduated scale expressed through simultaneous hand signals rather than cards. | [Gradients of Agreement (hand signals)](https://www.sessionlab.com/methods/gradients-of-agreement) |
+
+## Energizers
+
+### Mid-session energizers
+
+Mid-session energizers help groups reset energy after lunch, long static blocks, or cognitive fatigue. Use them between agenda segments in workshops or full-day sessions — not as opening icebreakers when the group is still arriving.
+
+| Practice | When to use | Source |
+| --- | --- | --- |
+| Spy | Use after lunch or a long static block when the group needs physical activation to fight the post-lunch dip. | [Spy](https://www.sessionlab.com/methods/spy) |
+| Apple, Orange and Banana! | Use when returning from lunch or a coffee break and the group needs synchronized movement to re-engage. | [Apple, Orange and Banana!](https://www.sessionlab.com/methods/3gch79) |
+| Shake Down | Use post-lunch or mid-session when time is limited and you need everyone standing, shaking limbs, and resetting quickly. | [Shake Down](https://toolbox.hyperisland.com/shake-down) |
+| Go Bananas | Use when mid-day energy is flat and you need a loud, silly physical charge-up before the next agenda block. | [Go Bananas](https://toolbox.hyperisland.com/go-bananas) |
+| Say Please | Use after sedentary work for a brief physical Simon Says jolt to wake bodies and attention before continuing. | [Say Please](https://www.thiagi.com/games/2015/3/1/apr-say-please) |
+| Effort Test Jolt | Use between heavy cognitive blocks for a brief standing kinesthetic reset with optional debrief. | [Effort Test Jolt](https://www.thiagi.com/games/2022/6/21/effort-test-jolt) |
+| Shock wave | Use mid-session with a large in-person group that can form a circle for quick, silent coordination. | [Shock wave](https://www.funretrospectives.com/shock-wave/) |
+| Human Rock-Paper-Scissors | Use when the room feels sluggish between segments; full-body movement, team coordination, and laughter. | [Human Rock-Paper-Scissors](https://www.funretrospectives.com/human-rock-paper-scissors/) |
+| Bang | Use during long meetings or workshops when energy dips; fast-reaction circle game for a quick state change. | [Bang](https://workshopweaver.com/facilitation-methods/bang) |
+| Sync Claps | Use for a quick mid-session reset to rebuild group focus and alignment after an energy lull. | [Sync Claps](https://workshopweaver.com/facilitation-methods/sync-claps) |
+
+## Closings and feedback
+
+### Closing and feedback practices
+
+Closing and feedback practices help groups reflect on session value, capture process improvements, and leave with emotional closure. Use them at the end of retrospectives, workshops, or long meetings — not when the group still needs to decide or commit to work.
+
+| Practice | When to use | Source |
+| --- | --- | --- |
+| Return on Time Invested | Use to close a retrospective or long meeting: participants rate time value and add sticky-note feedback for facilitator improvement. | [Return on Time Invested](https://www.funretrospectives.com/feedback-and-roi/) |
+| Plus/Delta | Use after any workshop block to capture what was positive or repeatable and what should change without a blame frame. | [Plus/Delta](https://www.sessionlab.com/methods/plus-delta) |
+| Appreciations Exercise | Use at the end of a learning workshop to rotate written strength feedback and share one appreciated strength aloud. | [Appreciations Exercise](https://www.sessionlab.com/methods/appreciations-exercise) |
+| Token of Appreciation | Use to close a team meeting on a warm note with circle acknowledgments passed person-to-person. | [Token of Appreciation](https://www.funretrospectives.com/token-of-appreciation/) |
+| One Word Before Leaving | Use for a fast emotional check-out after a retro or meeting: each person shares one word about how they feel. | [One Word Before Leaving](https://www.funretrospectives.com/one-word-before-leaving/) |
+| Check-out | Use for symbolic session closure with a chosen prompt — one word, a feeling, or a takeaway — one person at a time. | [Check-out](https://www.sessionlab.com/methods/check-in-check-out) |
+| Meeting closing round (+ - !) | Use at meeting end to collect process feedback: what went well, what should change, and other ideas — not topic content. | [Meeting closing round (+ - !)](https://www.sessionlab.com/methods/meeting-closing-round) |
+| Well, Not so well, New ideas | Use for sprint or project feedback close with three columns for what went well, what did not, and new ideas. | [Well, Not so well, New ideas](https://www.funretrospectives.com/well-not-so-well-and-new-ideas/) |
+
+## Mediation and negotiation
+
+### Mediation and negotiation practices
+
+Mediation and negotiation practices help groups move through interpersonal tension, conflicting interests, or unresolved disputes toward understanding and workable agreements. Use them when the facilitation challenge is repair or negotiation — not idea generation, prioritization, or sprint improvement. What I Need From You, Heard Seen Respected, and Core Protocols Resolution live in other practice families; this family adds dedicated mediation and interest-based negotiation formats.
+
+| Practice | When to use | Source |
+| --- | --- | --- |
+| NVC conflict resolution | Use when parties need empathic connection and needs-based resolution before agreeing on strategies. | [NVC conflict resolution](https://www.cnvc.org/store/we-can-work-it-out) |
+| NVC mediation turn-taking | Use when a facilitator needs a concrete speak–reflect–confirm loop to build mutual understanding before problem-solving. | [NVC mediation turn-taking](https://nonviolentcommunication.com/learn-nonviolent-communication/nvc-conflict-resolution/) |
+| Principled negotiation | Use when negotiators are stuck on positions and need to surface interests, invent options, and use objective criteria. | [Principled negotiation](https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/) |
+| Clearing Procedure | Use when two individuals carry interpersonal charge and need a held, structured dialogue to restore working trust. | [Clearing Procedure](https://resources.transitionnetwork.org/resource/clearing-procedure/) |
+| Circle process | Use when a group needs egalitarian, talking-piece dialogue to heal harm, rebuild trust, or process a shared rupture. | [Circle process](https://mediatorsbeyondborders.org/what-we-do/conflict-literacy-framework/circle-process/) |
+| Fishbowl | Use when a contentious topic needs a self-regulating discussion with an inner circle, outer listeners, and swap-in chair. | [Fishbowl](https://www.seedsforchange.org.uk/downloads/tools.pdf) |
+| Core Protocols Check In | Use when a meeting or negotiation should start by surfacing feelings and recommitting to collaborative norms. | [Core Protocols Check In](https://thecoreprotocols.org/protocols/check-in) |
+| Active listening | Use when mediation depends on accurate understanding, summarising, and de-escalation in meetings or one-to-one repair. | [Active listening](https://www.seedsforchange.org.uk/activelistening) |
+| Conflict Responses | Use when a team should reflect on past conflicts and co-create shared conflict-handling guidelines. | [Conflict Responses](https://www.sessionlab.com/methods/conflict-responses) |
+
+_Total practices: 265_

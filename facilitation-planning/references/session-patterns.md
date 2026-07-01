@@ -7,6 +7,7 @@ Reusable session arcs keyed to common facilitation goals. Each arc maps blocks t
 1. Match the user's goal to a pattern family below.
 2. Pick or adapt an arc; swap practices only with catalogue entries that fit the block purpose.
 3. Scale block count and depth to time budget (see `plan-template.md`).
+4. For sessions ≥2 hours or multi-day: consider a mid-session energizer and a closing/feedback ritual from the catalogue (Energizers, Closings and feedback sections).
 
 ## Pattern families
 
@@ -16,6 +17,7 @@ Reusable session arcs keyed to common facilitation goals. Each arc maps blocks t
 | Brainstorm / ideation | 60-120 min | `brainstorm-diverge`, `brainstorm-focused` |
 | Product discovery / kickoff | 2-4 hours | `discovery-opportunities`, `discovery-kickoff` |
 | Decision / alignment | 30-90 min | `alignment-priorities`, `alignment-commit` |
+| Planning / estimation | 90-180 min | `planning-estimation` |
 | Conflict / repair | 60-120 min | `conflict-repair` |
 | Cross-team dependency alignment | 90-180 min | `dependency-alignment` |
 | Risk / premortem workshop | 90-180 min | `risk-premortem` |
@@ -111,6 +113,8 @@ Reusable session arcs keyed to common facilitation goals. Each arc maps blocks t
 | Harvest | HMW Sharing and Affinity Mapping + Capturing research questions | Opportunity map |
 | Prioritize | Importance/Difficulty Matrix or ToP Collaborative Priority Setting | Ranked backlog |
 | Validate | Design hypothesis + next research steps | Validation plan per top item |
+| Energize | Spy or Shake Down (optional — post-lunch in 3+ hour sessions) | Energy reset |
+| Close | Plus/Delta or Return on Time Invested (optional) | Session feedback for facilitator |
 
 **Trade-offs:** Needs pre-read for best results; heavy for <2 hours.
 
@@ -147,7 +151,8 @@ Reusable session arcs keyed to common facilitation goals. Each arc maps blocks t
 | Frame | Agreement and Certainty | Decision rule selected from intake |
 | Explore | What, So What, Now What | Shared understanding |
 | Debate | Conversation Cafe or Rounds | Equal voice on tensions |
-| Decide | Per intake decision rule (consent / Decider / Gradients of Agreement / vote — not a default) | Documented decision |
+| Decide | Per intake decision rule (consent / Decider / Gradients of Agreement / Fist to Five / vote — not a default) | Documented decision |
+| Gauge | Fist to Five or Human Spectrogram (optional — when reservations need to be visible before closing) | Visible support/reservation map |
 | Follow | What I Need From You | Cross-role requests |
 
 **Decision rule:** Select from intake, not by default. `Sociocracy consent decision-making` and `Core Protocols Decider` are options when consent or fast commitment fits — not the automatic choice for every contested decision.
@@ -168,9 +173,10 @@ Destination: **understanding and repair, not an action list.** Do not route open
 | --- | --- | --- |
 | Safety | Creating Safety or Heard, Seen, Respected | Psychological baseline |
 | Surface | Writing the Unspeakable or Stinky Fish or Spot the Elephant | Concerns named safely |
-| Dialogue | Conversation Cafe or Rounds | Shared understanding of perspectives |
+| Dialogue | Conversation Cafe or Rounds or NVC mediation turn-taking | Shared understanding of perspectives |
+| Negotiate | Principled negotiation or Clearing Procedure or Fishbowl (when two-party or structured debate needed) | Interests and options surfaced |
 | Requests | What I Need From You | Mutual, negotiable cross-role requests |
-| Agreement | Light relationship agreement (NOT a to-do list) | Working norms or next conversation |
+| Agreement | Light relationship agreement or Circle process (NOT a to-do list) | Working norms or next conversation |
 
 **Trade-offs:** No quick action items; may need external/neutral facilitator if requester is a party to the conflict.
 
@@ -192,7 +198,8 @@ Scale participation by headcount — not plenary round-robins. See headcount axi
 | Surface | World Cafe or 25/10 Crowdsourcing or Open Space Technology | Themes across tables |
 | Synthesize | Spokescouncil or delegate report-outs + Affinity Clustering | Clustered themes |
 | Prioritize | Dot Vote (table delegates or individual on board) | Top 3-5 themes |
-| Close | Open Items List or escalation brief | Themes for leadership / next step |
+| Energize | Shake Down or Sync Claps (optional — after lunch or long static block) | Energy reset |
+| Close | Open Items List or escalation brief + Plus/Delta or Return on Time Invested (optional) | Themes for leadership / next step |
 
 **Trade-offs:** Less depth per person; needs strong table facilitation and clear delegate roles.
 
@@ -212,6 +219,7 @@ Scale participation by headcount — not plenary round-robins. See headcount axi
 | Context | Appreciative Interviews or What, So What, Now What | Shared picture of reality |
 | Direction | 9 Whys + Wicked Questions | Purpose and tensions named |
 | Explore | World Cafe or Open Space Technology | Themed insights across groups |
+| Energize | Shake Down or Go Bananas (optional — post-lunch Day 1) | Energy reset |
 | Synthesize | Affinity Clustering + Cover Story Mock-up | Draft strategic themes |
 
 **Day 2 — Decide and commit**
@@ -221,7 +229,9 @@ Scale participation by headcount — not plenary round-robins. See headcount axi
 | Prioritize | Dot Vote + Impact Mapping | Ranked strategic bets |
 | Stress-test | The Worst We Could Do + Circles & Soup | Risks and ownership boundaries |
 | Commit | Sociocracy consent decision-making or Core Protocols Decider | Agreed priorities |
+| Gauge | Fist to Five or Gradients of Agreement (hand signals) on top priorities | Visible reservations before lock-in |
 | Plan | 15% Solutions + Open Items List | Quarterly actions with owners |
+| Close | Plus/Delta or Meeting closing round (+ - !) (optional) | Facilitator learning + session feedback |
 
 **Trade-offs:** Requires pre-work, strong co-facilitation for hybrid, and executive sponsorship.
 
@@ -244,6 +254,7 @@ Destination: **ownership, constraints, and sequencing** — not idea generation.
 | Constraints | Circles & Soup or Circle of Influence | Team-owned vs external blockers |
 | Requests | What I Need From You | Explicit cross-team asks and offers |
 | Sequence | Open Items List or Min Specs | Sequenced commitments with owners and dates |
+| Gauge | Fist to Five or Take a Stand on sequencing commitments (optional) | Visible reservations before lock-in |
 
 **Trade-offs:** Needs representatives who can commit for their teams; weak without decision authority present.
 
@@ -371,6 +382,33 @@ Destination: **support and acknowledgment, not an action list.** Post-layoff, re
 **Stop if:** Active crisis, individual in acute distress, or requester wants "quick action plan" — redirect to HR/EAP or external support; do not force SMART goals.
 
 **Stop/redirect:** If safety check fails or emotional escalation exceeds group capacity, pause the arc, offer break, and signpost professional resources. Do not push through to action items.
+
+---
+
+## Planning / estimation (90-180 min, 6-15 people)
+
+Destination: **sized, sequenced backlog within capacity** — not open-ended ideation. Do not route sprint/PI/roadmap planning to brainstorm or discovery arcs when estimation is the primary need.
+
+### Arc — `planning-estimation`
+
+| Block | Practice (catalogue) | Output |
+| --- | --- | --- |
+| Frame | ToP Focused Conversation or 9 Whys + capacity/velocity review (plain structure) | Shared planning horizon, capacity baseline, and success signal |
+| Scope | Affinity Clustering of backlog items | Scoped candidate set for sizing |
+| Size | Planning Poker / Affinity Estimation / Magic Estimation / T-Shirt Sizing | Relative sizes on backlog items |
+| Sequence | Importance/Difficulty Matrix or Dot Vote (criteria first) | Ranked order within capacity |
+| Uncertainty | Critical Uncertainties or Premortem on top commitments | Named risks and assumptions |
+| Commit | Open Items List + Fist to Five or Gradients of Agreement (hand signals) | Sequenced plan with owners and explicit "not doing" list |
+
+**Trade-offs:** Needs backlog owners and knowledge-holders present; weak without known velocity or capacity; estimation is not the same as commitment — name both separately.
+
+**Recommend when:** Sprint planning, PI planning, or roadmap sequencing where relative sizing and capacity-bound commitment are the goal.
+
+**Criteria-before-vote:** Set sequencing/prioritization criteria before ranking sized items.
+
+**Stop if:** Key backlog owners or knowledge-holders missing; no capacity/velocity data and team cannot supply it — reframe as sizing-only input session, not commitment.
+
+**Hybrid notes:** Use one digital board for silent sizing columns; online participants size in parallel on the board, not via room-only gestures.
 
 ---
 

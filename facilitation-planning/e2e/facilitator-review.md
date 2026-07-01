@@ -37,6 +37,7 @@ Give qualitative feedback (no numeric scores) for each:
 | Follow-through governance | Decision log, "not doing" list, dissent, sponsor sign-off, owner authority, checkpoint booked |
 | Async structure | If async-first: blocks marked async vs live; timezone overlap honored |
 | Blameless postmortem | If incident/postmortem: systemic actions, no individual blame |
+| Estimation and capacity realism | If planning/estimation: sizing practices fit context; plan respects known velocity/capacity; estimation vs commitment distinguished |
 | Top changes | What you would edit before running this for real |
 
 ## Output contract
@@ -44,7 +45,7 @@ Give qualitative feedback (no numeric scores) for each:
 Return exactly this structure for the orchestrator to save as `brief-<id>-review.md`:
 
 ```text
-BRIEF: <a | b | c | d | e | f | g | h | i>
+BRIEF: <a | b | c | d | e | f | g | h | i | j>
 CONFIDENCE: high | medium | low
 RUNNABLE: yes | yes-with-edits | no
 
@@ -66,6 +67,7 @@ DIMENSIONS:
 - follow_through_governance: <one sentence>
 - async_structure: <one sentence, or N/A if not async-first>
 - blameless_postmortem: <one sentence, or N/A if not incident/postmortem>
+- estimation_capacity_realism: <one sentence, or N/A if not planning/estimation>
 
 STRENGTHS:
 - <2-3 concrete bullets>
@@ -93,6 +95,7 @@ FAILURE_MODE_SPOT_CHECK:
 - follow_through_governance: pass | fail — <one line>
 - async_structure: pass | fail | n/a — <one line>
 - blameless_postmortem: pass | fail | n/a — <one line>
+- estimation_capacity_realism: pass | fail | n/a — <one line>
 ```
 
 ## Rules

@@ -46,6 +46,7 @@ Before designing, gather:
 - **Confidentiality / recording** — Chatham House vs attributed; recorded?; who sees the output (carries into artifacts)
 - **Facilitator neutrality + who is in the room** — is the requester a participant or neutral facilitator? Is the decision-maker present? Is any key knowledge-holder missing?
 - **Timezone spread / energy windows** — for online or async sessions: participant timezones, overlap hours, energy dips; drives shorter live blocks and more breaks
+- **Capacity / velocity** — for planning or estimation sessions: known team capacity, velocity, or throughput; if unknown, ask before committing to a sized plan
 - **Pre-interview (optional, high-stakes)** — for complex or politically sensitive sessions, interview 2-3 participants before designing; do not rely on the requester's account alone
 
 If essentials are missing, ask **2-4 targeted questions**. Do not invent participant count, duration, goals, or constraints. A user saying "just give me something" is not permission to skip intake.
@@ -106,7 +107,7 @@ Do not deliver agenda and blocks alone.
 
 Group size (headcount) is independent of time — see headcount axis in `references/session-patterns.md`. Do not schedule plenary round-robins above ~8 people.
 
-Additional arcs in `session-patterns.md`: `dependency-alignment`, `risk-premortem`, `incident-postmortem`, `town-hall`, `async-first`, `tender-listening`.
+Additional arcs in `session-patterns.md`: `planning-estimation`, `dependency-alignment`, `risk-premortem`, `incident-postmortem`, `town-hall`, `async-first`, `tender-listening`.
 
 ## Hybrid, language, red flags
 
