@@ -71,6 +71,8 @@ Phase 3 is not complete until a markdown file exists with the full plan.
 
 **Follow-up:** when the user refines the plan after Phase 3, edit the same markdown file in place. Do not leave the file stale or create a duplicate unless the user asks.
 
+**Pressure-test (optional):** to stress-test the delivered plan for real-room runnability, hand it to `facilitation-review`. Non-binding; no hard coupling.
+
 ## Catalogue rule (`framing_plus_labeled`)
 
 Named branded practices are **catalogue-first, always** — select from `references/catalogue.md` with source link.

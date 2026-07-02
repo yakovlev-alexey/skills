@@ -1,10 +1,20 @@
-# Facilitator Review
+# Facilitator Review — E2E Harness Glue
 
-Use this prompt when a **dedicated reviewer subagent** evaluates an E2E plan output.
+Use this prompt when a **dedicated reviewer subagent** evaluates an E2E plan
+output for `facilitation-planning`.
 
-## Reviewer role
+This file is **harness glue**. The reviewer rubric — dimensions and
+failure-mode checks — is owned by the `facilitation-review` skill. Load that
+skill and judge with its `references/review-dimensions.md`. This file only adds
+the harness-specific constraints and the stable machine-parseable output block
+the harness depends on.
 
-You are an experienced facilitator. Judge whether the plan is **runnable in a real room** — not whether an agent followed skill rules.
+## Setup
+
+1. Load the `facilitation-review` skill and follow its persona, workflow, and
+   dimension rubric (`references/review-dimensions.md`).
+2. Operate in **harness mode** (non-interactive): ask no questions; note gaps
+   and lower confidence instead.
 
 ## Input you receive
 
@@ -12,37 +22,31 @@ You are an experienced facilitator. Judge whether the plan is **runnable in a re
 - The full plan output from the executor
 - This file (`facilitator-review.md`)
 
-You do **not** receive skill text, pressure-scenario evaluator notes, or expected arc names.
+You do **not** receive the text of the skill under test (`facilitation-planning`
+and its references), pressure-scenario evaluator notes, or expected arc names.
+Loading the `facilitation-review` reviewer skill is expected and is distinct
+from reading the skill under test. Judge the **output** only.
 
-## Dimensions
+## Harness-only constraints
 
-Give qualitative feedback (no numeric scores) for each:
-
-| Dimension | What to judge |
-| --- | --- |
-| Intake and arc fit | Right session shape for the stated goal, participants, and constraints |
-| Timing realism | Blocks sum to the time budget; depth is feasible in the room |
-| Practice selection | Formats fit the context; transitions between blocks make sense |
-| Participant dynamics | Trust, safety, and political sensitivity handled appropriately |
-| Facilitator usability | Clear instructions, frames, parking-lot handling; minimal guesswork |
-| Hybrid/online practicality | If applicable: parity rules are actionable, not decorative |
-| Artifacts and follow-through | Outputs and post-session process would actually stick |
-| Decision authority | Decision rule, sponsor, and whether outcomes can stick or be overridden |
-| Conflict and safety handling | Conflict/repair vs action-forcing; safety downshift when trust is low |
-| Timing and cut list | Step sums fit blocks; breaks at cadence; explicit cut/protect list |
-| Scale and participation | Participation structure matches headcount (no 25-person round-robins) |
-| Anonymity honesty | Any "anonymous" claim names the actual mechanism |
-| Hybrid operations | If hybrid: AV, breakout parity, backup channel, remote facilitator — not decorative |
-| Facilitator contingencies | Risky blocks include fallback moves (silence, dominance, escalation, behind schedule) |
-| Follow-through governance | Decision log, "not doing" list, dissent, sponsor sign-off, owner authority, checkpoint booked |
-| Async structure | If async-first: blocks marked async vs live; timezone overlap honored |
-| Blameless postmortem | If incident/postmortem: systemic actions, no individual blame |
-| Estimation and capacity realism | If planning/estimation: sizing practices fit context; plan respects known velocity/capacity; estimation vs commitment distinguished |
-| Top changes | What you would edit before running this for real |
+- **Identify the brief** as one of `a–j` in the machine block below.
+- **Do not read the skill under test.** Judge the plan output, not rule
+  adherence.
+- **Catalogue-only `practice_honesty`.** For this harness only, apply the
+  stricter reading of the `practice_honesty` dimension/check: a named branded
+  practice must appear in the `facilitation-planning` catalogue digest with a
+  correct source, otherwise it fails. This stricter reading is reported in the
+  machine block as `invented_practice`. (In the standalone skill,
+  `practice_honesty` allows legitimate non-catalogue practices; that relaxation
+  does not apply here.)
+- **Ask no questions**; this is a non-interactive run.
 
 ## Output contract
 
-Return exactly this structure for the orchestrator to save as `brief-<id>-review.md`:
+Return exactly this structure for the orchestrator to save as
+`brief-<id>-review.md`. The dimension and check names map directly to
+`facilitation-review`'s `references/review-dimensions.md`; the format below is
+fixed because the harness depends on it.
 
 ```text
 BRIEF: <a | b | c | d | e | f | g | h | i | j>
@@ -98,10 +102,14 @@ FAILURE_MODE_SPOT_CHECK:
 - estimation_capacity_realism: pass | fail | n/a — <one line>
 ```
 
+Note: `invented_practice` is the harness label for the catalogue-only reading of
+`practice_honesty` (see harness constraints above).
+
 ## Rules
 
 - Do not produce a chronological summary of the plan.
 - Do not use numeric ratings beyond the RUNNABLE verdict.
 - Cite specific plan sections when noting issues.
-- If the plan is truncated or missing sections, lower confidence and say what is missing.
+- If the plan is truncated or missing sections, lower confidence and say what is
+  missing.
 - Judge facilitation quality, not markdown formatting polish.

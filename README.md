@@ -21,6 +21,7 @@ Dotfiles-specific skills live in the dotfiles repository instead.
 | Skill | Use when |
 | --- | --- |
 | [`facilitation-planning`](facilitation-planning/SKILL.md) | Facilitating, moderating, or running a meeting, workshop, session, retro, retrospective, brainstorm, ideation, discovery, planning, strategy session, decision-making, kickoff, alignment, or workshop agenda. |
+| [`facilitation-review`](facilitation-review/SKILL.md) | Reviewing, critiquing, evaluating, stress-testing, or sanity-checking a facilitation plan, session agenda, workshop design, or meeting plan — right after facilitation-planning or for a plan built any other way. |
 
 ### TypeScript Web Apps
 
