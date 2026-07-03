@@ -1,0 +1,155 @@
+{
+  "skill_name": "facilitation-planning",
+  "eval_type": "trigger",
+  "runs_per_query": 3,
+  "pass_threshold": 0.5,
+  "library_context": [
+    "facilitation-planning",
+    "facilitation-review",
+    "web-app-design",
+    "web-app-testing",
+    "brainstorming"
+  ],
+  "evals": [
+    {
+      "id": "trg-plan-01",
+      "split": "train",
+      "query": "Plan a 90-minute online team retrospective after a rough sprint. We need psychological safety and 2-3 concrete improvement actions.",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-plan-02",
+      "split": "train",
+      "query": "got a retro tomorrow, 7 ppl, online, bad sprint — plan it pls",
+      "should_trigger": true,
+      "axis": "formality"
+    },
+    {
+      "id": "trg-plan-03",
+      "split": "train",
+      "query": "We're kicking off a new cross-functional squad Monday. Before that I need a 3-hour in-person session design with blocks, timings, and prep checklist.",
+      "should_trigger": true,
+      "axis": "complexity"
+    },
+    {
+      "id": "trg-plan-04",
+      "split": "train",
+      "query": "Design a workshop agenda for our product discovery kickoff — 10 people, in-person, goal is a prioritized opportunity backlog.",
+      "should_trigger": true,
+      "axis": "detail"
+    },
+    {
+      "id": "trg-plan-05",
+      "split": "train",
+      "query": "Help me moderate an alignment meeting with leadership — 8 people, 90 minutes, in-person. We need a ranked priority list by the end.",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-plan-06",
+      "split": "train",
+      "query": "Нужен план фасилитации ретроспективы на 75 минут, 7 человек, онлайн, после тяжёлого спринта.",
+      "should_trigger": true,
+      "axis": "formality"
+    },
+    {
+      "id": "trg-plan-07",
+      "split": "train",
+      "query": "Review this facilitation plan before we run the session tomorrow — tell me if it's ready.",
+      "should_trigger": false,
+      "axis": "near_miss_review"
+    },
+    {
+      "id": "trg-plan-08",
+      "split": "train",
+      "query": "Stress-test my workshop agenda for hybrid friction — 25 people, 2 hours, half remote.",
+      "should_trigger": false,
+      "axis": "near_miss_review"
+    },
+    {
+      "id": "trg-plan-09",
+      "split": "train",
+      "query": "Sanity-check this meeting plan — will it work with 25 people in a hybrid room?",
+      "should_trigger": false,
+      "axis": "near_miss_review"
+    },
+    {
+      "id": "trg-plan-10",
+      "split": "train",
+      "query": "Write meeting minutes from yesterday's standup.",
+      "should_trigger": false,
+      "axis": "obvious_negative"
+    },
+    {
+      "id": "trg-plan-11",
+      "split": "train",
+      "query": "What's the weather in Berlin today?",
+      "should_trigger": false,
+      "axis": "obvious_negative"
+    },
+    {
+      "id": "trg-plan-12",
+      "split": "train",
+      "query": "Run the retro for me in the room tomorrow — I'll paste notes as we go.",
+      "should_trigger": false,
+      "axis": "near_miss_other"
+    },
+    {
+      "id": "trg-plan-13",
+      "split": "val",
+      "query": "Plan a two-day hybrid Strategy Lab for 25 participants. Goal: agree on top 5 strategic priorities with owners.",
+      "should_trigger": true,
+      "axis": "detail"
+    },
+    {
+      "id": "trg-plan-14",
+      "split": "val",
+      "query": "My team wants a premortem before launch — what should the 60-minute session look like?",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-plan-15",
+      "split": "val",
+      "query": "Boss wants an ideation brainstorm next week — need a runnable facilitation plan for 12 people, 2 hours.",
+      "should_trigger": true,
+      "axis": "complexity"
+    },
+    {
+      "id": "trg-plan-16",
+      "split": "val",
+      "query": "Plan an async-first session: 3 days Miro contribution, then 90-minute live convergence across US/EU/APAC.",
+      "should_trigger": true,
+      "axis": "detail"
+    },
+    {
+      "id": "trg-plan-17",
+      "split": "val",
+      "query": "facilitation-planning just produced this plan — pressure-test it before I send invites.",
+      "should_trigger": false,
+      "axis": "near_miss_review"
+    },
+    {
+      "id": "trg-plan-18",
+      "split": "val",
+      "query": "Critique my workshop design — is it runnable in a real room with uneven participation?",
+      "should_trigger": false,
+      "axis": "near_miss_review"
+    },
+    {
+      "id": "trg-plan-19",
+      "split": "val",
+      "query": "Edit block 3 of this facilitation plan — add a cut list and tighten the timed flow.",
+      "should_trigger": false,
+      "axis": "near_miss_other"
+    },
+    {
+      "id": "trg-plan-20",
+      "split": "val",
+      "query": "Convert this JSON file to YAML.",
+      "should_trigger": false,
+      "axis": "obvious_negative"
+    }
+  ]
+}

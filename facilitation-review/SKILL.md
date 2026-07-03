@@ -222,10 +222,12 @@ Used by the `facilitation-planning` E2E harness. In this mode:
 
 ## Testing
 
-Before editing this skill, run `pressure-scenarios.md` RED/GREEN and record the
-results (e.g. `pressure-results-<date>.md`), mirroring the
-`facilitation-planning` convention. There is no E2E subagent harness for this
-skill by design.
+Before editing this skill:
+
+1. **Trigger evals (L1)** — per `evals/trigger-evals.md`; record in `evals/trigger-results-<date>.md`. Run before description edits; library must include `facilitation-planning`.
+2. **Pressure scenarios** — RED/GREEN per `pressure-scenarios.md`; record in `pressure-results-<date>.md`, mirroring the `facilitation-planning` convention.
+
+There is no E2E subagent harness for this skill by design.
 
 ## References
 

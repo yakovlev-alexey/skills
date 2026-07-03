@@ -137,9 +137,10 @@ Stop if:
 
 Before editing this skill:
 
-1. **Pressure scenarios** — RED/GREEN per `pressure-scenarios.md`; record in `pressure-results-<date>.md`.
-2. **E2E briefs** — per `e2e/briefs.md`: executor subagent per brief, separate facilitator review subagent per output (`e2e/facilitator-review.md`). Commit run under `e2e/runs/<date>/` with `run-manifest.md` pinning definition file contents, outputs, reviews, and `summary.md`.
-3. **Catalogue sync** — `node scripts/build-catalogue.mjs` after `awesome-facilitation` changes.
+1. **Trigger evals (L1)** — per `evals/trigger-evals.md`; record in `evals/trigger-results-<date>.md`. Run before description edits; library must include `facilitation-review`.
+2. **Pressure scenarios** — RED/GREEN per `pressure-scenarios.md`; record in `pressure-results-<date>.md`.
+3. **E2E briefs** — per `e2e/briefs.md`: executor subagent per brief, separate facilitator review subagent per output (`e2e/facilitator-review.md`). Commit run under `e2e/runs/<date>/` with `run-manifest.md` pinning definition file contents, outputs, reviews, and `summary.md`.
+4. **Catalogue sync** — `node scripts/build-catalogue.mjs` after `awesome-facilitation` changes.
 
 Non-goals: no live meeting bot, no catalogue curation in this skill, manual sync only.
 

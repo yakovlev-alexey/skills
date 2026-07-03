@@ -1,0 +1,155 @@
+{
+  "skill_name": "facilitation-review",
+  "eval_type": "trigger",
+  "runs_per_query": 3,
+  "pass_threshold": 0.5,
+  "library_context": [
+    "facilitation-planning",
+    "facilitation-review",
+    "web-app-design",
+    "web-app-testing",
+    "brainstorming"
+  ],
+  "evals": [
+    {
+      "id": "trg-rev-01",
+      "split": "train",
+      "query": "Critique this workshop agenda before we run it Monday — will it hold up in the room?",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-rev-02",
+      "split": "train",
+      "query": "Is this facilitation plan runnable in a real room? 25 people, hybrid, 2 hours — pasted below.",
+      "should_trigger": true,
+      "axis": "detail"
+    },
+    {
+      "id": "trg-rev-03",
+      "split": "train",
+      "query": "Evaluate this session design — too ambitious for 30 minutes with six executives?",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-rev-04",
+      "split": "train",
+      "query": "Here's the plan we wrote. Before I send invites I want a second opinion on whether it'll fall apart in the room.",
+      "should_trigger": true,
+      "axis": "complexity"
+    },
+    {
+      "id": "trg-rev-05",
+      "split": "train",
+      "query": "does this agenda hold up? 25 ppl hybrid 2hrs — lmk whats weak",
+      "should_trigger": true,
+      "axis": "formality"
+    },
+    {
+      "id": "trg-rev-06",
+      "split": "train",
+      "query": "Проверь этот план фасилитации — готов ли он к реальной сессии? 60 мин, 7 человек, онлайн.",
+      "should_trigger": true,
+      "axis": "formality"
+    },
+    {
+      "id": "trg-rev-07",
+      "split": "train",
+      "query": "Plan a team retrospective for tomorrow — 60 minutes, 7 people, online.",
+      "should_trigger": false,
+      "axis": "near_miss_planning"
+    },
+    {
+      "id": "trg-rev-08",
+      "split": "train",
+      "query": "Design a two-day strategy offsite facilitation plan for 20 people, hybrid.",
+      "should_trigger": false,
+      "axis": "near_miss_planning"
+    },
+    {
+      "id": "trg-rev-09",
+      "split": "train",
+      "query": "Help me facilitate alignment on Q3 priorities — 8 people, 90 minutes, in-person.",
+      "should_trigger": false,
+      "axis": "near_miss_planning"
+    },
+    {
+      "id": "trg-rev-10",
+      "split": "train",
+      "query": "Review our facilitation methodology playbook and tell me if the framework is sound.",
+      "should_trigger": false,
+      "axis": "near_miss_other"
+    },
+    {
+      "id": "trg-rev-11",
+      "split": "train",
+      "query": "Summarize what each block in this facilitation plan does — I need a quick walkthrough.",
+      "should_trigger": false,
+      "axis": "near_miss_other"
+    },
+    {
+      "id": "trg-rev-12",
+      "split": "train",
+      "query": "Write a post-mortem report from last week's production outage.",
+      "should_trigger": false,
+      "axis": "obvious_negative"
+    },
+    {
+      "id": "trg-rev-13",
+      "split": "val",
+      "query": "Stress-test this meeting plan for politics, uneven participation, and hybrid friction.",
+      "should_trigger": true,
+      "axis": "domain_explicit"
+    },
+    {
+      "id": "trg-rev-14",
+      "split": "val",
+      "query": "Sanity-check the session agenda I pasted — any blind spots before we run it live?",
+      "should_trigger": true,
+      "axis": "formality"
+    },
+    {
+      "id": "trg-rev-15",
+      "split": "val",
+      "query": "Will this retro plan work with a low-trust team after a rough sprint? Review the design, not run it.",
+      "should_trigger": true,
+      "axis": "detail"
+    },
+    {
+      "id": "trg-rev-16",
+      "split": "val",
+      "query": "facilitation-planning just produced this — I need a prioritized critique before sending invites.",
+      "should_trigger": true,
+      "axis": "complexity"
+    },
+    {
+      "id": "trg-rev-17",
+      "split": "val",
+      "query": "Create a facilitation plan for a product discovery kickoff — 10 people, 3 hours, in-person.",
+      "should_trigger": false,
+      "axis": "near_miss_planning"
+    },
+    {
+      "id": "trg-rev-18",
+      "split": "val",
+      "query": "Plan a 2.5-hour hybrid PI planning session for two Scrum teams — committed sprint plan with owners.",
+      "should_trigger": false,
+      "axis": "near_miss_planning"
+    },
+    {
+      "id": "trg-rev-19",
+      "split": "val",
+      "query": "Edit this plan — add a cut list to block 3 and reconcile step times with block duration.",
+      "should_trigger": false,
+      "axis": "near_miss_other"
+    },
+    {
+      "id": "trg-rev-20",
+      "split": "val",
+      "query": "Fix the failing unit test in auth middleware.",
+      "should_trigger": false,
+      "axis": "obvious_negative"
+    }
+  ]
+}

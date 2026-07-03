@@ -1,0 +1,388 @@
+{
+  "skill": "facilitation-review",
+  "collected_at": "2026-07-03T09:49:15.386Z",
+  "runs_per_query_target": 3,
+  "rows": [
+    {
+      "id": "trg-rev-01",
+      "split": "train",
+      "query": "Critique this workshop agenda before we run it Monday — will it hold up in the room?",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-02",
+      "split": "train",
+      "query": "Is this facilitation plan runnable in a real room? 25 people, hybrid, 2 hours — pasted below.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-03",
+      "split": "train",
+      "query": "Evaluate this session design — too ambitious for 30 minutes with six executives?",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-04",
+      "split": "train",
+      "query": "Here's the plan we wrote. Before I send invites I want a second opinion on whether it'll fall apart in the room.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-05",
+      "split": "train",
+      "query": "does this agenda hold up? 25 ppl hybrid 2hrs — lmk whats weak",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-06",
+      "split": "train",
+      "query": "Проверь этот план фасилитации — готов ли он к реальной сессии? 60 мин, 7 человек, онлайн.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-07",
+      "split": "train",
+      "query": "Plan a team retrospective for tomorrow — 60 minutes, 7 people, online.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-planning",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "facilitation-planning"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-08",
+      "split": "train",
+      "query": "Design a two-day strategy offsite facilitation plan for 20 people, hybrid.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-planning",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "facilitation-planning"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-09",
+      "split": "train",
+      "query": "Help me facilitate alignment on Q3 priorities — 8 people, 90 minutes, in-person.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-planning",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "facilitation-planning"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-10",
+      "split": "train",
+      "query": "Review our facilitation methodology playbook and tell me if the framework is sound.",
+      "expected": "no",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "fail",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-11",
+      "split": "train",
+      "query": "Summarize what each block in this facilitation plan does — I need a quick walkthrough.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "none",
+        "none",
+        "none"
+      ],
+      "unique_invoked": [
+        "none"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-12",
+      "split": "train",
+      "query": "Write a post-mortem report from last week's production outage.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "none",
+        "none",
+        "none"
+      ],
+      "unique_invoked": [
+        "none"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-13",
+      "split": "val",
+      "query": "Stress-test this meeting plan for politics, uneven participation, and hybrid friction.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-14",
+      "split": "val",
+      "query": "Sanity-check the session agenda I pasted — any blind spots before we run it live?",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-15",
+      "split": "val",
+      "query": "Will this retro plan work with a low-trust team after a rough sprint? Review the design, not run it.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-16",
+      "split": "val",
+      "query": "facilitation-planning just produced this — I need a prioritized critique before sending invites.",
+      "expected": "yes",
+      "runsTriggered": "3/3",
+      "trigger_rate": "1.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-review",
+        "facilitation-review",
+        "facilitation-review"
+      ],
+      "unique_invoked": [
+        "facilitation-review"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-17",
+      "split": "val",
+      "query": "Create a facilitation plan for a product discovery kickoff — 10 people, 3 hours, in-person.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-planning",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "facilitation-planning"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-18",
+      "split": "val",
+      "query": "Plan a 2.5-hour hybrid PI planning session for two Scrum teams — committed sprint plan with owners.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "facilitation-planning",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "facilitation-planning"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-19",
+      "split": "val",
+      "query": "Edit this plan — add a cut list to block 3 and reconcile step times with block duration.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "none",
+        "facilitation-planning",
+        "facilitation-planning"
+      ],
+      "unique_invoked": [
+        "none",
+        "facilitation-planning"
+      ],
+      "deterministic": false,
+      "run_count": 3
+    },
+    {
+      "id": "trg-rev-20",
+      "split": "val",
+      "query": "Fix the failing unit test in auth middleware.",
+      "expected": "no",
+      "runsTriggered": "0/3",
+      "trigger_rate": "0.00",
+      "pass": "pass",
+      "invoked": [
+        "none",
+        "none",
+        "none"
+      ],
+      "unique_invoked": [
+        "none"
+      ],
+      "deterministic": true,
+      "run_count": 3
+    }
+  ]
+}
