@@ -1,0 +1,2 @@
+# L0 skill contract validator (PyPI). Wheel hash verified in scripts/validate-skills.sh.
+skills-ref==0.1.1

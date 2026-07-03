@@ -111,3 +111,21 @@ ln -s ~/Repos/skills/web-app-design ~/.codex/skills/web-app-design
 - Keep supporting material inside the owning skill directory, such as `references/`, `scripts/`, or `agents/`.
 - After adding, renaming, or changing a skill, update this README in the same change with the current short description.
 - Keep README descriptions short and trigger-focused; the full workflow belongs in `SKILL.md`.
+
+### L0 validation
+
+Run structural checks before opening a PR:
+
+```bash
+./scripts/validate-skills.sh
+```
+
+The gate validates:
+
+- [agentskills.io specification](https://agentskills.io/specification) via `skills-ref` (`agentskills validate`)
+- One installable skill per top-level directory (no nested `SKILL.md`)
+- `SKILL.md` body at most 500 lines
+- `description` starts with `Use when`
+- `evals/evals.json` schema when present
+
+CI runs the same script on pull requests and pushes to `main`.
