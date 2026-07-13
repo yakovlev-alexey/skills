@@ -23,6 +23,12 @@ Dotfiles-specific skills live in the dotfiles repository instead.
 | [`facilitation-planning`](facilitation-planning/SKILL.md) | Facilitating, moderating, or running a meeting, workshop, session, retro, retrospective, brainstorm, ideation, discovery, planning, strategy session, decision-making, kickoff, alignment, or workshop agenda. |
 | [`facilitation-review`](facilitation-review/SKILL.md) | Reviewing, critiquing, evaluating, stress-testing, or sanity-checking a facilitation plan, session agenda, workshop design, or meeting plan — right after facilitation-planning or for a plan built any other way. |
 
+### Status Reporting
+
+| Skill | Use when |
+| --- | --- |
+| [`pppi-status-report`](pppi-status-report/SKILL.md) | Creating, updating, or reviewing a PPPI (Progress, Plans, Problems, Ideas) status report, PPP weekly update, mid-sprint or mid-review PPPI, or 1-on-1 status prep. |
+
 ### TypeScript Web Apps
 
 | Skill | Use when |
